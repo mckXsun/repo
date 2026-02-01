@@ -1,0 +1,900 @@
+--------- beginning of main
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:55.464 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:55.464 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:55.464 13813 13882 I PreviewImgM3u8: Generating preview for 190
+01-31 20:37:55.464 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@2489607): Cookies: null
+01-31 20:37:55.464 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:55.464 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@2489607): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:55.705 13813 14020 W PesReader: Unexpected start code prefix: 3213189
+01-31 20:37:55.706 13813 14020 W PesReader: Unexpected start code prefix: 2164613
+01-31 20:37:55.706 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:37:56.160 13813 13882 I PreviewImgM3u8: Generating preview for 199
+01-31 20:37:56.161 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@c4fd55d): Cookies: null
+01-31 20:37:56.161 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:56.161 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@c4fd55d): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:56.313 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:56.313 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:56.313 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:56.313 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:37:56.313 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:37:56.313 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:37:56.313 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:56.313 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:56.314 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:56.314 13813 13882 I PreviewImgM3u8: Generating preview for 208
+01-31 20:37:56.314 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@5ce8ba3): Cookies: null
+01-31 20:37:56.314 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:56.314 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@5ce8ba3): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:56.877 13813 13882 I PreviewImgM3u8: Generating preview for 218
+01-31 20:37:56.877 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@8b96a59): Cookies: null
+01-31 20:37:56.877 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:56.877 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@8b96a59): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:57.045 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:57.045 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:57.045 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:57.045 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:37:57.045 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:37:57.045 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:37:57.045 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:57.045 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:57.045 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:57.045 13813 13882 I PreviewImgM3u8: Generating preview for 227
+01-31 20:37:57.045 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@343eff): Cookies: null
+01-31 20:37:57.046 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:57.046 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@343eff): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:57.338 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:57.338 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:57.338 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:57.338 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:37:57.338 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:37:57.338 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:37:57.338 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:57.338 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:57.338 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:57.338 13813 13882 I PreviewImgM3u8: Generating preview for 236
+01-31 20:37:57.338 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@cbaf62a): Cookies: null
+01-31 20:37:57.338 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:57.338 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@cbaf62a): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:57.655 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:57.655 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:57.655 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:57.655 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:37:57.655 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:37:57.655 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:37:57.655 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:57.655 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:57.656 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:57.656 13813 13882 I PreviewImgM3u8: Generating preview for 246
+01-31 20:37:57.656 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@67d0b91): Cookies: null
+01-31 20:37:57.656 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:57.656 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@67d0b91): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:58.186 13813 13882 I PreviewImgM3u8: Generating preview for 255
+01-31 20:37:58.186 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@9dd0ef7): Cookies: null
+01-31 20:37:58.186 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:58.186 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@9dd0ef7): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:58.347 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:58.347 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:58.347 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:58.347 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:37:58.347 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:37:58.347 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:37:58.347 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:58.347 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:58.347 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:58.347 13813 13882 I PreviewImgM3u8: Generating preview for 264
+01-31 20:37:58.347 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@d5cfcd): Cookies: null
+01-31 20:37:58.349 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:58.349 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@d5cfcd): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:58.835 13813 13882 I PreviewImgM3u8: Generating preview for 274
+01-31 20:37:58.835 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@449a393): Cookies: null
+01-31 20:37:58.835 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:58.835 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@449a393): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:58.980 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:58.980 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:58.980 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:58.980 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:37:58.980 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:37:58.980 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:37:58.980 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:58.980 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:58.980 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:58.980 13813 13882 I PreviewImgM3u8: Generating preview for 283
+01-31 20:37:58.980 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@b7c9bc9): Cookies: null
+01-31 20:37:58.980 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:58.980 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@b7c9bc9): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:37:59.381 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:59.381 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:59.381 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:37:59.381 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:37:59.381 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:37:59.381 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:37:59.381 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:37:59.381 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:37:59.381 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:37:59.381 13813 13882 I PreviewImgM3u8: Generating preview for 292
+01-31 20:37:59.381 13813 13882 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@9aae8fc): Cookies: null
+01-31 20:37:59.381 13813 13882 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@bf0abe) exists.
+01-31 20:37:59.381 13813 13882 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@9aae8fc): cookieHandler: java.net.CookieManager@bf0abe Cookies: null
+01-31 20:38:00.085 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:38:00.085 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:38:00.085 13813 13882 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+01-31 20:38:00.085 13813 13882 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+01-31 20:38:00.085 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+01-31 20:38:00.085 13813 13882 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+01-31 20:38:00.085 13813 13882 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+01-31 20:38:00.085 13813 13882 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+01-31 20:38:00.085 13813 13882 D ApiError: -------------------------------------------------------------------
+01-31 20:38:00.094 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1419/1424 (recycle/alloc) - 17/1419 (fetch/transfer)
+01-31 20:38:01.374 13813 14020 W PesReader: Unexpected start code prefix: 3213199
+01-31 20:38:01.374 13813 14020 W PesReader: Unexpected start code prefix: 2164623
+01-31 20:38:01.374 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:03.379 13813 14020 W PesReader: Unexpected start code prefix: 3213213
+01-31 20:38:03.379 13813 14020 W PesReader: Unexpected start code prefix: 2164635
+01-31 20:38:03.379 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:05.605 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1653/1658 (recycle/alloc) - 17/1652 (fetch/transfer)
+01-31 20:38:05.956 13813 14020 W PesReader: Unexpected start code prefix: 3213231
+01-31 20:38:05.956 13813 14020 W PesReader: Unexpected start code prefix: 2164655
+01-31 20:38:05.956 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:09.343 13813 14020 W PesReader: Unexpected start code prefix: 3213269
+01-31 20:38:09.343 13813 14020 W PesReader: Unexpected start code prefix: 2164693
+01-31 20:38:09.343 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:10.955 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1884/1889 (recycle/alloc) - 17/1883 (fetch/transfer)
+01-31 20:38:16.050 13813 14020 W PesReader: Unexpected start code prefix: 3213283
+01-31 20:38:16.050 13813 14020 W PesReader: Unexpected start code prefix: 2164707
+01-31 20:38:16.050 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:16.207 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2110/2115 (recycle/alloc) - 17/2109 (fetch/transfer)
+01-31 20:38:18.527 13813 14020 W PesReader: Unexpected start code prefix: 3213293
+01-31 20:38:18.527 13813 14020 W PesReader: Unexpected start code prefix: 2164717
+01-31 20:38:18.527 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:20.352 13813 14020 W PesReader: Unexpected start code prefix: 3213313
+01-31 20:38:20.353 13813 14020 W PesReader: Unexpected start code prefix: 2164737
+01-31 20:38:20.353 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:21.454 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2336/2341 (recycle/alloc) - 17/2335 (fetch/transfer)
+01-31 20:38:24.130 13813 14020 W PesReader: Unexpected start code prefix: 3213355
+01-31 20:38:24.130 13813 14020 W PesReader: Unexpected start code prefix: 2164779
+01-31 20:38:24.130 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:26.956 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2573/2578 (recycle/alloc) - 19/2572 (fetch/transfer)
+01-31 20:38:31.613 13813 14020 W PesReader: Unexpected start code prefix: 3213365
+01-31 20:38:31.613 13813 14020 W PesReader: Unexpected start code prefix: 2164787
+01-31 20:38:31.613 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:32.424 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2808/2813 (recycle/alloc) - 19/2807 (fetch/transfer)
+01-31 20:38:33.277 13813 14020 W PesReader: Unexpected start code prefix: 3213403
+01-31 20:38:33.277 13813 14020 W PesReader: Unexpected start code prefix: 2164827
+01-31 20:38:33.278 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:37.451 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3025/3030 (recycle/alloc) - 19/3024 (fetch/transfer)
+01-31 20:38:40.288 13813 14020 W PesReader: Unexpected start code prefix: 3213435
+01-31 20:38:40.288 13813 14020 W PesReader: Unexpected start code prefix: 2164859
+01-31 20:38:40.288 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:42.917 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3260/3265 (recycle/alloc) - 19/3259 (fetch/transfer)
+01-31 20:38:46.548 13813 14020 W PesReader: Unexpected start code prefix: 3213479
+01-31 20:38:46.548 13813 14020 W PesReader: Unexpected start code prefix: 2164903
+01-31 20:38:46.548 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:48.293 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3492/3497 (recycle/alloc) - 19/3491 (fetch/transfer)
+01-31 20:38:53.603 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3721/3726 (recycle/alloc) - 19/3720 (fetch/transfer)
+01-31 20:38:54.250 13813 14020 W PesReader: Unexpected start code prefix: 3213495
+01-31 20:38:54.250 13813 14020 W PesReader: Unexpected start code prefix: 2164919
+01-31 20:38:54.250 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:56.950 13813 14020 W PesReader: Unexpected start code prefix: 3213511
+01-31 20:38:56.950 13813 14020 W PesReader: Unexpected start code prefix: 2164935
+01-31 20:38:56.950 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:38:58.937 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3950/3955 (recycle/alloc) - 19/3949 (fetch/transfer)
+01-31 20:39:00.015 13813 14020 W PesReader: Unexpected start code prefix: 3213561
+01-31 20:39:00.015 13813 14020 W PesReader: Unexpected start code prefix: 2164985
+01-31 20:39:00.015 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:04.173 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 4(32768 size) used buffers - 4178/4183 (recycle/alloc) - 19/4175 (fetch/transfer)
+01-31 20:39:08.879 13813 14020 W PesReader: Unexpected start code prefix: 3213577
+01-31 20:39:08.879 13813 14020 W PesReader: Unexpected start code prefix: 2165001
+01-31 20:39:08.879 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:09.586 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 4409/4414 (recycle/alloc) - 19/4408 (fetch/transfer)
+01-31 20:39:12.021 13813 14020 W PesReader: Unexpected start code prefix: 3213621
+01-31 20:39:12.021 13813 14020 W PesReader: Unexpected start code prefix: 2165045
+01-31 20:39:12.021 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:15.087 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 4646/4651 (recycle/alloc) - 19/4645 (fetch/transfer)
+01-31 20:39:20.015 13813 14020 W PesReader: Unexpected start code prefix: 3213657
+01-31 20:39:20.015 13813 14020 W PesReader: Unexpected start code prefix: 2165081
+01-31 20:39:20.015 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:20.506 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 4879/4884 (recycle/alloc) - 19/4878 (fetch/transfer)
+01-31 20:39:25.540 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5096/5101 (recycle/alloc) - 20/5095 (fetch/transfer)
+01-31 20:39:26.837 13813 14020 W PesReader: Unexpected start code prefix: 3213673
+01-31 20:39:26.837 13813 14020 W PesReader: Unexpected start code prefix: 2165097
+01-31 20:39:26.837 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:29.907 13813 14020 W PesReader: Unexpected start code prefix: 3213695
+01-31 20:39:29.907 13813 14020 W PesReader: Unexpected start code prefix: 2165119
+01-31 20:39:29.907 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:30.960 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5329/5334 (recycle/alloc) - 20/5328 (fetch/transfer)
+01-31 20:39:33.371 13813 14020 W PesReader: Unexpected start code prefix: 3213711
+01-31 20:39:33.371 13813 14020 W PesReader: Unexpected start code prefix: 2165135
+01-31 20:39:33.371 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:36.431 13813 14020 W PesReader: Unexpected start code prefix: 3213735
+01-31 20:39:36.431 13813 14020 W PesReader: Unexpected start code prefix: 2165157
+01-31 20:39:36.431 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:36.505 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5568/5573 (recycle/alloc) - 22/5567 (fetch/transfer)
+01-31 20:39:40.668 13813 14020 W PesReader: Unexpected start code prefix: 3213755
+01-31 20:39:40.668 13813 14020 W PesReader: Unexpected start code prefix: 2165177
+01-31 20:39:40.668 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:41.901 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5801/5806 (recycle/alloc) - 22/5800 (fetch/transfer)
+01-31 20:39:44.281 13813 14020 W PesReader: Unexpected start code prefix: 3213777
+01-31 20:39:44.281 13813 14020 W PesReader: Unexpected start code prefix: 2165201
+01-31 20:39:44.281 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:47.407 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 6038/6043 (recycle/alloc) - 22/6037 (fetch/transfer)
+01-31 20:39:49.344 13813 14020 W PesReader: Unexpected start code prefix: 3213797
+01-31 20:39:49.344 13813 14020 W PesReader: Unexpected start code prefix: 2165221
+01-31 20:39:49.344 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:52.321 13813 14020 W PesReader: Unexpected start code prefix: 3213811
+01-31 20:39:52.321 13813 14020 W PesReader: Unexpected start code prefix: 2165233
+01-31 20:39:52.321 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:52.939 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 6276/6281 (recycle/alloc) - 22/6275 (fetch/transfer)
+01-31 20:39:55.532 13813 14020 W PesReader: Unexpected start code prefix: 3213839
+01-31 20:39:55.532 13813 14020 W PesReader: Unexpected start code prefix: 2165263
+01-31 20:39:55.532 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:39:57.973 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 6492/6497 (recycle/alloc) - 23/6491 (fetch/transfer)
+01-31 20:40:00.123 13813 14020 W PesReader: Unexpected start code prefix: 3213855
+01-31 20:40:00.123 13813 14020 W PesReader: Unexpected start code prefix: 2165277
+01-31 20:40:00.123 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:02.585 13813 14020 W PesReader: Unexpected start code prefix: 3213889
+01-31 20:40:02.585 13813 14020 W PesReader: Unexpected start code prefix: 2165311
+01-31 20:40:02.585 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:03.304 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 4(32768 size) used buffers - 6725/6730 (recycle/alloc) - 23/6722 (fetch/transfer)
+01-31 20:40:08.743 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 6956/6961 (recycle/alloc) - 23/6955 (fetch/transfer)
+01-31 20:40:08.905 13813 14020 W PesReader: Unexpected start code prefix: 3213913
+01-31 20:40:08.906 13813 14020 W PesReader: Unexpected start code prefix: 2165337
+01-31 20:40:08.906 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:14.047 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 7185/7190 (recycle/alloc) - 23/7184 (fetch/transfer)
+01-31 20:40:14.666 13813 14020 W PesReader: Unexpected start code prefix: 3213923
+01-31 20:40:14.666 13813 14020 W PesReader: Unexpected start code prefix: 2165347
+01-31 20:40:14.666 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:15.759 13813 14020 W PesReader: Unexpected start code prefix: 3213937
+01-31 20:40:15.759 13813 14020 W PesReader: Unexpected start code prefix: 2165361
+01-31 20:40:15.759 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:18.447 13813 14020 W PesReader: Unexpected start code prefix: 3213961
+01-31 20:40:18.447 13813 14020 W PesReader: Unexpected start code prefix: 2165383
+01-31 20:40:18.447 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:19.449 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 7418/7423 (recycle/alloc) - 24/7417 (fetch/transfer)
+01-31 20:40:22.222 13813 14020 W PesReader: Unexpected start code prefix: 3213977
+01-31 20:40:22.222 13813 14020 W PesReader: Unexpected start code prefix: 2165401
+01-31 20:40:22.222 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:24.869 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 7651/7656 (recycle/alloc) - 24/7650 (fetch/transfer)
+01-31 20:40:25.618 13813 14020 W PesReader: Unexpected start code prefix: 3213989
+01-31 20:40:25.618 13813 14020 W PesReader: Unexpected start code prefix: 2165413
+01-31 20:40:25.618 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:27.769 13813 14020 W PesReader: Unexpected start code prefix: 3214003
+01-31 20:40:27.769 13813 14020 W PesReader: Unexpected start code prefix: 2165427
+01-31 20:40:27.769 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:29.813 13813 14020 W PesReader: Unexpected start code prefix: 3214017
+01-31 20:40:29.814 13813 14020 W PesReader: Unexpected start code prefix: 2165441
+01-31 20:40:29.814 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:30.226 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 7882/7887 (recycle/alloc) - 24/7881 (fetch/transfer)
+01-31 20:40:32.738 13813 14020 W PesReader: Unexpected start code prefix: 3214039
+01-31 20:40:32.738 13813 14020 W PesReader: Unexpected start code prefix: 2165463
+01-31 20:40:32.738 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:35.689 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8117/8122 (recycle/alloc) - 24/8116 (fetch/transfer)
+01-31 20:40:37.144 13813 14020 W PesReader: Unexpected start code prefix: 3214057
+01-31 20:40:37.144 13813 14020 W PesReader: Unexpected start code prefix: 2165481
+01-31 20:40:37.144 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:39.912 13813 14020 W PesReader: Unexpected start code prefix: 3214073
+01-31 20:40:39.912 13813 14020 W PesReader: Unexpected start code prefix: 2165495
+01-31 20:40:39.912 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:41.147 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8352/8357 (recycle/alloc) - 24/8351 (fetch/transfer)
+01-31 20:40:43.431 13813 14020 W PesReader: Unexpected start code prefix: 3214091
+01-31 20:40:43.431 13813 14020 W PesReader: Unexpected start code prefix: 2165515
+01-31 20:40:43.431 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:45.991 13813 14020 W PesReader: Unexpected start code prefix: 3214103
+01-31 20:40:45.991 13813 14020 W PesReader: Unexpected start code prefix: 2165525
+01-31 20:40:45.991 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:46.544 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8584/8589 (recycle/alloc) - 24/8583 (fetch/transfer)
+01-31 20:40:47.917 13813 14020 W PesReader: Unexpected start code prefix: 3214129
+01-31 20:40:47.917 13813 14020 W PesReader: Unexpected start code prefix: 2165551
+01-31 20:40:47.917 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:51.937 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8817/8822 (recycle/alloc) - 25/8816 (fetch/transfer)
+01-31 20:40:53.479 13813 14020 W PesReader: Unexpected start code prefix: 3214147
+01-31 20:40:53.479 13813 14020 W PesReader: Unexpected start code prefix: 2165571
+01-31 20:40:53.479 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:56.959 13813 14020 W PesReader: Unexpected start code prefix: 3214165
+01-31 20:40:56.959 13813 14020 W PesReader: Unexpected start code prefix: 2165589
+01-31 20:40:56.960 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:40:57.444 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9054/9059 (recycle/alloc) - 25/9053 (fetch/transfer)
+01-31 20:40:59.936 13813 14020 W PesReader: Unexpected start code prefix: 3214193
+01-31 20:40:59.936 13813 14020 W PesReader: Unexpected start code prefix: 2165617
+01-31 20:40:59.936 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:02.865 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9287/9292 (recycle/alloc) - 25/9286 (fetch/transfer)
+01-31 20:41:04.411 13813 14020 W PesReader: Unexpected start code prefix: 3214201
+01-31 20:41:04.411 13813 14020 W PesReader: Unexpected start code prefix: 2165625
+01-31 20:41:04.411 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:05.900 13813 14020 W PesReader: Unexpected start code prefix: 3214217
+01-31 20:41:05.900 13813 14020 W PesReader: Unexpected start code prefix: 2165641
+01-31 20:41:05.900 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:07.920 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9505/9510 (recycle/alloc) - 26/9504 (fetch/transfer)
+01-31 20:41:08.499 13813 14020 W PesReader: Unexpected start code prefix: 3214245
+01-31 20:41:08.499 13813 14020 W PesReader: Unexpected start code prefix: 2165667
+01-31 20:41:08.499 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:13.440 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9743/9748 (recycle/alloc) - 27/9742 (fetch/transfer)
+01-31 20:41:13.822 13813 14020 W PesReader: Unexpected start code prefix: 3214263
+01-31 20:41:13.822 13813 14020 W PesReader: Unexpected start code prefix: 2165687
+01-31 20:41:13.822 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:17.225 13813 14020 W PesReader: Unexpected start code prefix: 3214303
+01-31 20:41:17.225 13813 14020 W PesReader: Unexpected start code prefix: 2165725
+01-31 20:41:17.225 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:18.994 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9982/9987 (recycle/alloc) - 27/9981 (fetch/transfer)
+01-31 20:41:24.325 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 10212/10217 (recycle/alloc) - 27/10211 (fetch/transfer)
+01-31 20:41:24.434 13813 14020 W PesReader: Unexpected start code prefix: 3214325
+01-31 20:41:24.434 13813 14020 W PesReader: Unexpected start code prefix: 2165747
+01-31 20:41:24.434 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:28.026 13813 14020 W PesReader: Unexpected start code prefix: 3214331
+01-31 20:41:28.026 13813 14020 W PesReader: Unexpected start code prefix: 2165753
+01-31 20:41:28.026 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:29.251 13813 14020 W PesReader: Unexpected start code prefix: 3214347
+01-31 20:41:29.251 13813 14020 W PesReader: Unexpected start code prefix: 2165771
+01-31 20:41:29.251 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:29.802 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 10451/10456 (recycle/alloc) - 27/10451 (fetch/transfer)
+01-31 20:41:32.957 13813 14020 W PesReader: Unexpected start code prefix: 3214367
+01-31 20:41:32.957 13813 14020 W PesReader: Unexpected start code prefix: 2165791
+01-31 20:41:32.957 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:35.337 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 10686/10691 (recycle/alloc) - 27/10685 (fetch/transfer)
+01-31 20:41:36.651 13813 14020 W PesReader: Unexpected start code prefix: 3214397
+01-31 20:41:36.651 13813 14020 W PesReader: Unexpected start code prefix: 2165821
+01-31 20:41:36.651 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:40.680 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 10919/10924 (recycle/alloc) - 27/10919 (fetch/transfer)
+01-31 20:41:41.454 13813 14020 W PesReader: Unexpected start code prefix: 3214417
+01-31 20:41:41.454 13813 14020 W PesReader: Unexpected start code prefix: 2165839
+01-31 20:41:41.454 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:44.759 13813 14020 W PesReader: Unexpected start code prefix: 3214429
+01-31 20:41:44.759 13813 14020 W PesReader: Unexpected start code prefix: 2165853
+01-31 20:41:44.759 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:45.996 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 11145/11150 (recycle/alloc) - 27/11144 (fetch/transfer)
+01-31 20:41:47.098 13813 14020 W PesReader: Unexpected start code prefix: 3214461
+01-31 20:41:47.098 13813 14020 W PesReader: Unexpected start code prefix: 2165885
+01-31 20:41:47.098 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:51.292 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 11373/11378 (recycle/alloc) - 27/11372 (fetch/transfer)
+01-31 20:41:53.494 13813 14020 W PesReader: Unexpected start code prefix: 3214517
+01-31 20:41:53.494 13813 14020 W PesReader: Unexpected start code prefix: 2165939
+01-31 20:41:53.494 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:41:56.575 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 11601/11606 (recycle/alloc) - 27/11600 (fetch/transfer)
+01-31 20:42:02.003 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 11834/11839 (recycle/alloc) - 27/11833 (fetch/transfer)
+01-31 20:42:04.590 13813 14020 W PesReader: Unexpected start code prefix: 3214547
+01-31 20:42:04.590 13813 14020 W PesReader: Unexpected start code prefix: 2165971
+01-31 20:42:04.590 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:07.466 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 12069/12074 (recycle/alloc) - 28/12068 (fetch/transfer)
+01-31 20:42:08.804 13813 14020 W PesReader: Unexpected start code prefix: 3214563
+01-31 20:42:08.804 13813 14020 W PesReader: Unexpected start code prefix: 2165987
+01-31 20:42:08.804 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:12.185 13813 14020 W PesReader: Unexpected start code prefix: 3214611
+01-31 20:42:12.186 13813 14020 W PesReader: Unexpected start code prefix: 2166035
+01-31 20:42:12.186 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:12.855 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 12302/12307 (recycle/alloc) - 28/12301 (fetch/transfer)
+01-31 20:42:18.108 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 12528/12533 (recycle/alloc) - 28/12527 (fetch/transfer)
+01-31 20:42:20.302 13813 14020 W PesReader: Unexpected start code prefix: 3214639
+01-31 20:42:20.302 13813 14020 W PesReader: Unexpected start code prefix: 2166063
+01-31 20:42:20.302 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:23.462 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 12758/12763 (recycle/alloc) - 28/12757 (fetch/transfer)
+01-31 20:42:25.305 13813 14020 W PesReader: Unexpected start code prefix: 3214671
+01-31 20:42:25.306 13813 14020 W PesReader: Unexpected start code prefix: 2166093
+01-31 20:42:25.306 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:28.820 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 12989/12994 (recycle/alloc) - 28/12988 (fetch/transfer)
+01-31 20:42:30.985 13813 14020 W PesReader: Unexpected start code prefix: 3214691
+01-31 20:42:30.985 13813 14020 W PesReader: Unexpected start code prefix: 2166115
+01-31 20:42:30.985 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:34.209 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 13221/13226 (recycle/alloc) - 28/13220 (fetch/transfer)
+01-31 20:42:34.823 13813 14020 W PesReader: Unexpected start code prefix: 3214701
+01-31 20:42:34.823 13813 14020 W PesReader: Unexpected start code prefix: 2166123
+01-31 20:42:34.823 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:36.655 13813 14020 W PesReader: Unexpected start code prefix: 3214739
+01-31 20:42:36.655 13813 14020 W PesReader: Unexpected start code prefix: 2166163
+01-31 20:42:36.655 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:39.576 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 13452/13457 (recycle/alloc) - 28/13451 (fetch/transfer)
+01-31 20:42:44.159 13813 14020 W PesReader: Unexpected start code prefix: 3214759
+01-31 20:42:44.159 13813 14020 W PesReader: Unexpected start code prefix: 2166183
+01-31 20:42:44.159 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:45.027 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 13687/13692 (recycle/alloc) - 28/13686 (fetch/transfer)
+01-31 20:42:47.384 13813 14020 W PesReader: Unexpected start code prefix: 3214779
+01-31 20:42:47.384 13813 14020 W PesReader: Unexpected start code prefix: 2166203
+01-31 20:42:47.384 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:50.534 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 13924/13929 (recycle/alloc) - 29/13923 (fetch/transfer)
+01-31 20:42:50.708 13813 14020 W PesReader: Unexpected start code prefix: 3214793
+01-31 20:42:50.708 13813 14020 W PesReader: Unexpected start code prefix: 2166217
+01-31 20:42:50.708 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:53.397 13813 14020 W PesReader: Unexpected start code prefix: 3214811
+01-31 20:42:53.397 13813 14020 W PesReader: Unexpected start code prefix: 2166235
+01-31 20:42:53.397 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:42:55.626 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 14144/14149 (recycle/alloc) - 30/14143 (fetch/transfer)
+01-31 20:42:56.774 13813 14020 W PesReader: Unexpected start code prefix: 3214831
+01-31 20:42:56.774 13813 14020 W PesReader: Unexpected start code prefix: 2166253
+01-31 20:42:56.774 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:00.145 13813 14020 W PesReader: Unexpected start code prefix: 3214853
+01-31 20:43:00.145 13813 14020 W PesReader: Unexpected start code prefix: 2166277
+01-31 20:43:00.145 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:01.133 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 14381/14386 (recycle/alloc) - 30/14380 (fetch/transfer)
+01-31 20:43:04.231 13813 14020 W PesReader: Unexpected start code prefix: 3214869
+01-31 20:43:04.231 13813 14020 W PesReader: Unexpected start code prefix: 2166293
+01-31 20:43:04.231 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:06.287 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 4(32768 size) used buffers - 14605/14610 (recycle/alloc) - 31/14602 (fetch/transfer)
+01-31 20:43:07.008 13813 14020 W PesReader: Unexpected start code prefix: 3214893
+01-31 20:43:07.008 13813 14020 W PesReader: Unexpected start code prefix: 2166315
+01-31 20:43:07.008 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:11.361 13813 14020 W PesReader: Unexpected start code prefix: 3214911
+01-31 20:43:11.361 13813 14020 W PesReader: Unexpected start code prefix: 2166335
+01-31 20:43:11.361 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:11.595 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 14831/14836 (recycle/alloc) - 31/14830 (fetch/transfer)
+01-31 20:43:14.773 13813 14020 W PesReader: Unexpected start code prefix: 3214953
+01-31 20:43:14.773 13813 14020 W PesReader: Unexpected start code prefix: 2166377
+01-31 20:43:14.773 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:16.888 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 4(32768 size) used buffers - 15062/15067 (recycle/alloc) - 31/15059 (fetch/transfer)
+01-31 20:43:22.361 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 15295/15300 (recycle/alloc) - 32/15294 (fetch/transfer)
+01-31 20:43:22.892 13813 14020 W PesReader: Unexpected start code prefix: 3214981
+01-31 20:43:22.892 13813 14020 W PesReader: Unexpected start code prefix: 2166405
+01-31 20:43:22.892 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:27.697 13813 14020 W PesReader: Unexpected start code prefix: 3215001
+01-31 20:43:27.697 13813 14020 W PesReader: Unexpected start code prefix: 2166425
+01-31 20:43:27.697 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:27.886 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 15533/15538 (recycle/alloc) - 32/15532 (fetch/transfer)
+01-31 20:43:31.147 13813 14020 W PesReader: Unexpected start code prefix: 3215025
+01-31 20:43:31.147 13813 14020 W PesReader: Unexpected start code prefix: 2166447
+01-31 20:43:31.147 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:33.326 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 15767/15772 (recycle/alloc) - 32/15766 (fetch/transfer)
+01-31 20:43:35.466 13813 14020 W PesReader: Unexpected start code prefix: 3215041
+01-31 20:43:35.466 13813 14020 W PesReader: Unexpected start code prefix: 2166465
+01-31 20:43:35.466 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:38.543 13813 14020 W PesReader: Unexpected start code prefix: 3215065
+01-31 20:43:38.543 13813 14020 W PesReader: Unexpected start code prefix: 2166489
+01-31 20:43:38.543 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:38.576 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 15993/15998 (recycle/alloc) - 33/15992 (fetch/transfer)
+01-31 20:43:42.936 13813 14020 W PesReader: Unexpected start code prefix: 3215097
+01-31 20:43:42.936 13813 14020 W PesReader: Unexpected start code prefix: 2166519
+01-31 20:43:42.936 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:43.865 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 16221/16226 (recycle/alloc) - 34/16220 (fetch/transfer)
+01-31 20:43:48.629 13813 14020 W PesReader: Unexpected start code prefix: 3215111
+01-31 20:43:48.629 13813 14020 W PesReader: Unexpected start code prefix: 2166535
+01-31 20:43:48.629 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:49.374 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 16458/16463 (recycle/alloc) - 35/16457 (fetch/transfer)
+01-31 20:43:50.233 13813 13813 I MediaCodec_loop: type=1400 audit(0.0:4395): avc: denied { call } for scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:r:init:s0 tclass=binder permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:43:50.237 13813 13813 I MediaCodec_loop: type=1400 audit(0.0:4396): avc: denied { transfer } for scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:r:init:s0 tclass=binder permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:43:51.438 13813 14020 W PesReader: Unexpected start code prefix: 3215133
+01-31 20:43:51.438 13813 14020 W PesReader: Unexpected start code prefix: 2166557
+01-31 20:43:51.438 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:43:51.433 13813 13813 I pool-7-thread-1: type=1400 audit(0.0:4397): avc: denied { sendto } for path="/dev/socket/statsdw" scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_dgram_socket permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:43:54.792 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 16695/16700 (recycle/alloc) - 36/16695 (fetch/transfer)
+01-31 20:43:55.397 13813 14020 W PesReader: Unexpected start code prefix: 3215163
+01-31 20:43:55.397 13813 14020 W PesReader: Unexpected start code prefix: 2166587
+01-31 20:43:55.397 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:00.124 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 16921/16926 (recycle/alloc) - 36/16920 (fetch/transfer)
+01-31 20:44:01.621 13813 14020 W PesReader: Unexpected start code prefix: 3215199
+01-31 20:44:01.621 13813 14020 W PesReader: Unexpected start code prefix: 2166623
+01-31 20:44:01.621 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:05.650 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 17159/17164 (recycle/alloc) - 37/17158 (fetch/transfer)
+01-31 20:44:07.579 13813 14020 W PesReader: Unexpected start code prefix: 3215217
+01-31 20:44:07.580 13813 14020 W PesReader: Unexpected start code prefix: 2166641
+01-31 20:44:07.580 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:10.991 13813 14020 W PesReader: Unexpected start code prefix: 3215263
+01-31 20:44:10.991 13813 14020 W PesReader: Unexpected start code prefix: 2166685
+01-31 20:44:10.991 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:11.105 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 17394/17399 (recycle/alloc) - 37/17393 (fetch/transfer)
+01-31 20:44:16.426 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 4(32768 size) used buffers - 17626/17631 (recycle/alloc) - 37/17623 (fetch/transfer)
+01-31 20:44:18.696 13813 14020 W PesReader: Unexpected start code prefix: 3215273
+01-31 20:44:18.696 13813 14020 W PesReader: Unexpected start code prefix: 2166697
+01-31 20:44:18.696 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:20.907 13813 14020 W PesReader: Unexpected start code prefix: 3215297
+01-31 20:44:20.907 13813 14020 W PesReader: Unexpected start code prefix: 2166719
+01-31 20:44:20.907 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:21.941 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 17861/17866 (recycle/alloc) - 37/17860 (fetch/transfer)
+01-31 20:44:25.554 13813 14020 W PesReader: Unexpected start code prefix: 3215345
+01-31 20:44:25.554 13813 14020 W PesReader: Unexpected start code prefix: 2166769
+01-31 20:44:25.554 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:27.298 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 18092/18097 (recycle/alloc) - 37/18091 (fetch/transfer)
+01-31 20:44:32.718 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 18325/18330 (recycle/alloc) - 37/18324 (fetch/transfer)
+01-31 20:44:35.354 13813 14020 W PesReader: Unexpected start code prefix: 3215377
+01-31 20:44:35.354 13813 14020 W PesReader: Unexpected start code prefix: 2166801
+01-31 20:44:35.354 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:36.611 13813 14031 D PipelineWatcher: onInputBufferReleased: frameIndex not found (18496); ignored
+01-31 20:44:37.755 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 18542/18547 (recycle/alloc) - 37/18541 (fetch/transfer)
+01-31 20:44:41.074 13813 14020 W PesReader: Unexpected start code prefix: 3215425
+01-31 20:44:41.074 13813 14020 W PesReader: Unexpected start code prefix: 2166849
+01-31 20:44:41.074 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:42.790 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 18759/18764 (recycle/alloc) - 37/18758 (fetch/transfer)
+01-31 20:44:48.295 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 18996/19001 (recycle/alloc) - 37/18995 (fetch/transfer)
+01-31 20:44:49.199 13813 14020 W PesReader: Unexpected start code prefix: 3215461
+01-31 20:44:49.199 13813 14020 W PesReader: Unexpected start code prefix: 2166883
+01-31 20:44:49.199 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:50.373 13813 13813 I ExoPlayer:Frame: type=1400 audit(0.0:4411): avc: denied { read } for scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:44:50.863 13813 13813 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=710000, toMs=710000, durationMs=1420000)
+01-31 20:44:53.777 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 19232/19237 (recycle/alloc) - 38/19231 (fetch/transfer)
+01-31 20:44:54.633 13813 13813 I CronetNet: type=1400 audit(0.0:4412): avc: denied { connectto } for path="/dev/socket/fwmarkd" scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:44:54.968 13813 14020 W PesReader: Unexpected start code prefix: 3215507
+01-31 20:44:54.968 13813 14020 W PesReader: Unexpected start code prefix: 2166929
+01-31 20:44:54.968 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:44:59.319 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 19471/19476 (recycle/alloc) - 38/19470 (fetch/transfer)
+01-31 20:45:03.468 13813 14020 W PesReader: Unexpected start code prefix: 3215519
+01-31 20:45:03.468 13813 14020 W PesReader: Unexpected start code prefix: 2166943
+01-31 20:45:03.468 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:04.744 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 19704/19709 (recycle/alloc) - 38/19703 (fetch/transfer)
+01-31 20:45:05.752 13813 14020 W PesReader: Unexpected start code prefix: 3215539
+01-31 20:45:05.752 13813 14020 W PesReader: Unexpected start code prefix: 2166961
+01-31 20:45:05.752 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:09.539 13813 14020 W PesReader: Unexpected start code prefix: 3215573
+01-31 20:45:09.539 13813 14020 W PesReader: Unexpected start code prefix: 2166997
+01-31 20:45:09.539 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:10.047 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 19933/19938 (recycle/alloc) - 39/19932 (fetch/transfer)
+01-31 20:45:15.459 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 4(32768 size) used buffers - 20168/20173 (recycle/alloc) - 40/20165 (fetch/transfer)
+01-31 20:45:15.835 13813 14020 W PesReader: Unexpected start code prefix: 3215605
+01-31 20:45:15.835 13813 14020 W PesReader: Unexpected start code prefix: 2167029
+01-31 20:45:15.835 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:20.886 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 20400/20405 (recycle/alloc) - 40/20399 (fetch/transfer)
+01-31 20:45:21.196 13813 14020 W PesReader: Unexpected start code prefix: 3215633
+01-31 20:45:21.196 13813 14020 W PesReader: Unexpected start code prefix: 2167057
+01-31 20:45:21.196 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:26.325 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 20634/20639 (recycle/alloc) - 40/20633 (fetch/transfer)
+01-31 20:45:27.406 13813 14020 W PesReader: Unexpected start code prefix: 3215681
+01-31 20:45:27.406 13813 14020 W PesReader: Unexpected start code prefix: 2167105
+01-31 20:45:27.406 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:31.642 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 20863/20868 (recycle/alloc) - 40/20862 (fetch/transfer)
+01-31 20:45:35.533 13813 14020 W PesReader: Unexpected start code prefix: 3215711
+01-31 20:45:35.533 13813 14020 W PesReader: Unexpected start code prefix: 2167135
+01-31 20:45:35.533 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:36.993 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 21093/21098 (recycle/alloc) - 40/21092 (fetch/transfer)
+01-31 20:45:41.025 13813 14020 W PesReader: Unexpected start code prefix: 3215759
+01-31 20:45:41.025 13813 14020 W PesReader: Unexpected start code prefix: 2167183
+01-31 20:45:41.025 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:42.278 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 4(32768 size) used buffers - 21323/21328 (recycle/alloc) - 40/21320 (fetch/transfer)
+01-31 20:45:47.593 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 21550/21555 (recycle/alloc) - 40/21549 (fetch/transfer)
+01-31 20:45:49.935 13813 14020 W PesReader: Unexpected start code prefix: 3215795
+01-31 20:45:49.935 13813 14020 W PesReader: Unexpected start code prefix: 2167219
+01-31 20:45:49.935 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:52.911 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 21779/21784 (recycle/alloc) - 40/21778 (fetch/transfer)
+01-31 20:45:56.092 13813 14020 W PesReader: Unexpected start code prefix: 3215837
+01-31 20:45:56.092 13813 14020 W PesReader: Unexpected start code prefix: 2167261
+01-31 20:45:56.092 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:45:58.373 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 22014/22019 (recycle/alloc) - 40/22013 (fetch/transfer)
+01-31 20:46:03.710 13813 14020 W PesReader: Unexpected start code prefix: 3215877
+01-31 20:46:03.710 13813 14020 W PesReader: Unexpected start code prefix: 2167301
+01-31 20:46:03.710 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:46:03.809 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 22248/22253 (recycle/alloc) - 40/22247 (fetch/transfer)
+01-31 20:46:09.230 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 22481/22486 (recycle/alloc) - 40/22480 (fetch/transfer)
+01-31 20:46:10.706 13813 14020 W PesReader: Unexpected start code prefix: 3215883
+01-31 20:46:10.706 13813 14020 W PesReader: Unexpected start code prefix: 2167307
+01-31 20:46:10.706 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:46:12.203 13813 14020 W PesReader: Unexpected start code prefix: 3215899
+01-31 20:46:12.203 13813 14020 W PesReader: Unexpected start code prefix: 2167321
+01-31 20:46:12.203 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:46:14.622 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 22714/22719 (recycle/alloc) - 40/22713 (fetch/transfer)
+01-31 20:46:14.683 13813 14020 W PesReader: Unexpected start code prefix: 3215915
+01-31 20:46:14.683 13813 14020 W PesReader: Unexpected start code prefix: 2167339
+01-31 20:46:14.683 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:46:17.777 13813 14020 W PesReader: Unexpected start code prefix: 3215943
+01-31 20:46:17.778 13813 14020 W PesReader: Unexpected start code prefix: 2167367
+01-31 20:46:17.778 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:46:20.033 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 22946/22951 (recycle/alloc) - 40/22945 (fetch/transfer)
+01-31 20:46:22.892 13813 14020 W PesReader: Unexpected start code prefix: 3215961
+01-31 20:46:22.892 13813 14020 W PesReader: Unexpected start code prefix: 2167385
+01-31 20:46:22.892 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:46:25.328 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 23178/23183 (recycle/alloc) - 40/23178 (fetch/transfer)
+01-31 20:46:26.192 13813 14020 W PesReader: Unexpected start code prefix: 3215997
+01-31 20:46:26.192 13813 14020 W PesReader: Unexpected start code prefix: 2167421
+01-31 20:46:26.192 13813 14020 W PesReader: Unexpected start code prefix: 0
+01-31 20:46:30.666 13813 14036 D BufferPoolAccessor2.0: bufferpool2 0x788e425d59a8 : 5(40960 size) total buffers - 1(8192 size) used buffers - 23405/23410 (recycle/alloc) - 40/23404 (fetch/transfer)
+01-31 20:46:32.553 13813 14002 I SIGNAL_LOG: signal pid 13813 uid 10050 signal_num 5 si_code 128 si_errno 0 si_val 0
+01-31 20:46:32.557 13813 14002 I SIGNAL_LOG: houdini base 0x788d445b5000
+01-31 20:46:32.557 13813 14002 I SIGNAL_LOG: houdini arm64 regs base 0x0
+01-31 20:46:32.557 13813 14002 I SIGNAL_LOG:   invalid arm reg
+--------- beginning of crash
+01-31 20:46:32.557 13813 14002 F libc    : Fatal signal 5 (SIGTRAP), code 128 (SI_KERNEL), fault addr 0x0 in tid 14002 (CronetNet), pid 13813 (eam3.prerelease)
+01-31 20:46:32.602 28140 28140 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+01-31 20:46:32.606 28140 28140 I crash_dump64: performing dump of process 13813 (target tid = 14002)
+01-31 20:46:32.600 28140 28140 I crash_dump64: type=1400 audit(0.0:4414): avc: denied { write } for name="tombstoned_crash" dev="tmpfs" ino=11381 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:tombstoned_crash_socket:s0 tclass=sock_file permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:46:32.603 28140 28140 I crash_dump64: type=1400 audit(0.0:4416): avc: denied { append } for path=2F646174612F746F6D6273746F6E65732F2331333130373936202864656C6574656429 dev="sdc3" ino=1310796 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:46:32.613 28140 28140 I crash_dump64: type=1400 audit(0.0:4417): avc: denied { open } for path="/proc/uptime" dev="proc" ino=4026532028 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:proc_uptime:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:46:32.613 28140 28140 I crash_dump64: type=1400 audit(0.0:4418): avc: denied { getattr } for path="/proc/uptime" dev="proc" ino=4026532028 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:proc_uptime:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:46:33.010 28140 28140 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-31 20:46:33.010 28140 28140 F DEBUG   : Build fingerprint: 'Samsung/a15x/a15x:12/V417IR/189:user/release-keys'
+01-31 20:46:33.010 28140 28140 F DEBUG   : Revision: '0'
+01-31 20:46:33.010 28140 28140 F DEBUG   : ABI: 'x86_64'
+01-31 20:46:33.010 28140 28140 F DEBUG   : Timestamp: 2026-01-31 20:46:32.614464323+0530
+01-31 20:46:33.010 28140 28140 F DEBUG   : Process uptime: 551s
+01-31 20:46:33.010 28140 28140 F DEBUG   : Cmdline: com.lagradost.cloudstream3.prerelease
+01-31 20:46:33.010 28140 28140 F DEBUG   : pid: 13813, tid: 14002, name: CronetNet  >>> com.lagradost.cloudstream3.prerelease <<<
+01-31 20:46:33.010 28140 28140 F DEBUG   : uid: 10050
+01-31 20:46:33.010 28140 28140 F DEBUG   : signal 5 (SIGTRAP), code 128 (SI_KERNEL), fault addr 0x0
+01-31 20:46:33.010 28140 28140 F DEBUG   :     rax 000000007f71ffd9  rbx 0000788e7250a800  rcx 000000007f7200ae  rdx 000000000002b559
+01-31 20:46:33.010 28140 28140 F DEBUG   :     r8  0000788d2a823688  r9  00000000000e3278  r10 00007fff2f7e00b0  r11 000001f1fe756604
+01-31 20:46:33.010 28140 28140 F DEBUG   :     r12 0000788d1f0ea788  r13 0000788d1f0ea788  r14 0000000000000000  r15 0000788d2a823760
+01-31 20:46:33.010 28140 28140 F DEBUG   :     rdi 00007fff2f7e0080  rsi 00000000000e3278
+01-31 20:46:33.010 28140 28140 F DEBUG   :     rbp 0000000000000000  rsp 0000788d2a8236a0  rip 0000788d1ed81d3a
+01-31 20:46:33.010 28140 28140 F DEBUG   : backtrace:
+01-31 20:46:33.010 28140 28140 F DEBUG   :       #00 pc 0000000000362d3a  /system/priv-app/PrebuiltGmsCore/split_CronetDynamite_installtime.apk!libcronet.140.0.7289.0.so (BuildId: 1de39a76d067280d61fc4218db43b3c9911006d8)
+01-31 20:46:37.125 28204 28204 W eam3.prereleas: Unexpected CPU variant for X86 using defaults: x86_64
+01-31 20:46:37.125 28204 28204 V libnb   : enter native_bridge2_initialize /data/user/0/com.lagradost.cloudstream3.prerelease/code_cache arm64
+01-31 20:46:37.128 28204 28204 E libnb   : The translator implementation library has not been set.
+01-31 20:46:37.137 28204 28204 E libnb   : get_callbacks native_handle 0xb2660027136914c9: 1 libnb:/system/lib64/libhoudini.so
+01-31 20:46:37.137 28204 28204 I libnb   : Found /system/lib64/libhoudini.so version 6
+01-31 20:46:37.137 28204 28204 D HP      : no libmumuhooker.so
+01-31 20:46:37.137 28204 28204 D houdini : [28204] Intel Bridge Technology for Netease internal evaluation only, Copyright(C) Intel Corp. 2012-2025.
+01-31 20:46:37.137 28204 28204 D houdini : [28204] Use permitted only under a valid evaluation software license agreement - all other rights reserved.
+01-31 20:46:37.137 28204 28204 D houdini : [28204] Initialize library(version: 12.0.1_z.Netease_ev4 RELEASE)... successfully.
+01-31 20:46:37.137 28204 28204 W HP      : x_initialize private_dir:/data/user/0/com.lagradost.cloudstream3.prerelease/code_cache instruction_set:arm64 getMethodShorty:0x788d5e13c340 ret:1
+01-31 20:46:37.143 28204 28204 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+01-31 20:46:37.151 28204 28220 E ashmem  : memfd: ro.vndk.version not defined or invalid (), this is mandated since P.
+01-31 20:46:37.155 28204 28204 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10050; state: ENABLED
+01-31 20:46:37.174 28204 28204 D NemuJavaHotPatchHelper: onHandleBindApplication reportedPackageName:com.lagradost.cloudstream3.prerelease isMatchJavaPatch:false
+01-31 20:46:37.243 28204 28204 I Typeface: Preloading /system/fonts/Roboto-Regular.ttf
+01-31 20:46:37.243 28204 28204 I Typeface: Preloading /system/fonts/RobotoStatic-Regular.ttf
+01-31 20:46:37.315 28204 28204 V GraphicsEnvironment: ANGLE Developer option for 'com.lagradost.cloudstream3.prerelease' set to: 'default'
+01-31 20:46:37.315 28204 28204 V GraphicsEnvironment: ANGLE GameManagerService for com.lagradost.cloudstream3.prerelease: false
+01-31 20:46:37.315 28204 28204 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+01-31 20:46:37.316 28204 28204 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-31 20:46:37.316 28204 28204 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-31 20:46:37.346 28204 28204 V NativeCrypto: Registering org/conscrypt/NativeCrypto's 288 native methods...
+01-31 20:46:37.350 28204 28204 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+01-31 20:46:37.353 28204 28204 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+01-31 20:46:37.353 28204 28204 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+01-31 20:46:37.355 28204 28225 D WM-ForceStopRunnable: The default process name was not specified.
+01-31 20:46:37.355 28204 28225 D WM-ForceStopRunnable: Performing cleanup operations.
+01-31 20:46:37.384 28204 28228 D libEGL  : loaded /system/lib64/egl/libEGL_emulation.so
+01-31 20:46:37.390 28204 28228 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:37.390 28204 28228 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:37.392 28204 28228 D libEGL  : loaded /system/lib64/egl/libGLESv1_CM_emulation.so
+01-31 20:46:37.394 28204 28225 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10050; state: ENABLED
+01-31 20:46:37.394 28204 28228 D libEGL  : loaded /system/lib64/egl/libGLESv2_emulation.so
+01-31 20:46:37.402 28204 28225 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+01-31 20:46:37.411 28204 28228 E GraphicsEnv: Failed to get gpu service
+01-31 20:46:37.497 28204 28204 I NavComponent: Navigating to Activity: MainActivity
+01-31 20:46:37.549 28204 28204 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+01-31 20:46:37.616 28204 28204 I MediaRouterProxy: Don't need to set MediaRouterParams for Android S v2 or below
+01-31 20:46:37.623 28204 28204 I DynamiteModule: Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:253534000
+01-31 20:46:37.623 28204 28204 I DynamiteModule: Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 253534000
+01-31 20:46:37.623 28204 28204 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+01-31 20:46:37.628 28204 28204 W System  : ClassLoader referenced unknown path: 
+01-31 20:46:37.644 28204 28204 I CastDynamiteModuleImpl: sn created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/system/priv-app/PrebuiltGmsCore/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/system/priv-app/PrebuiltGmsCore/split_DynamiteModulesC_installtime.apk!/lib/x86_64, /system/priv-app/PrebuiltGmsCore/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /system/product/lib64, /system/vendor/lib64]]].
+01-31 20:46:37.657 28204 28204 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+01-31 20:46:37.657 28204 28204 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+01-31 20:46:37.658 28204 28204 I MediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=100, volumeMax=100, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+01-31 20:46:37.659 28204 28204 I MediaRouter: Unselecting the current route because it is no longer selectable: null
+01-31 20:46:37.721 28204 28204 W Resources: Drawable com.lagradost.cloudstream3.prerelease:drawable/go_forward_30 has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+01-31 20:46:37.721 28204 28204 W Resources: java.lang.RuntimeException
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.content.res.Resources.getDrawable(Resources.java:922)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.google.android.gms.cast.framework.media.widget.zzs.zzd(com.google.android.gms:play-services-cast-framework@@21.4.0:2)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.google.android.gms.cast.framework.media.widget.zzs.zzc(com.google.android.gms:play-services-cast-framework@@21.4.0:1)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.zza(com.google.android.gms:play-services-cast-framework@@21.4.0:41)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.onCreateView(com.google.android.gms:play-services-cast-framework@@21.4.0:29)
+01-31 20:46:37.721 28204 28204 W Resources: 	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+01-31 20:46:37.721 28204 28204 W Resources: 	at androidx.fragment.app.FragmentStateManager.ensureInflatedView(FragmentStateManager.java:418)
+01-31 20:46:37.721 28204 28204 W Resources: 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+01-31 20:46:37.721 28204 28204 W Resources: 	at androidx.fragment.app.FragmentLayoutInflaterFactory.onCreateView(FragmentLayoutInflaterFactory.java:142)
+01-31 20:46:37.721 28204 28204 W Resources: 	at androidx.fragment.app.FragmentController.onCreateView(FragmentController.java:136)
+01-31 20:46:37.721 28204 28204 W Resources: 	at androidx.fragment.app.FragmentActivity.dispatchFragmentsOnCreateView(FragmentActivity.java:247)
+01-31 20:46:37.721 28204 28204 W Resources: 	at androidx.fragment.app.FragmentActivity.onCreateView(FragmentActivity.java:226)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.tryCreateView(LayoutInflater.java:1073)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1001)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:965)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1127)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1088)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1130)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1088)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1130)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1088)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:686)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:538)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.lagradost.cloudstream3.databinding.ActivityMainBinding.inflate(ActivityMainBinding.java:66)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.lagradost.cloudstream3.MainActivity.onCreate(MainActivity.kt:1260)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.Activity.performCreate(Activity.java:8058)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.Activity.performCreate(Activity.java:8038)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1345)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3738)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3933)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2296)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.os.Looper.loopOnce(Looper.java:201)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.os.Looper.loop(Looper.java:288)
+01-31 20:46:37.721 28204 28204 W Resources: 	at android.app.ActivityThread.main(ActivityThread.java:8062)
+01-31 20:46:37.721 28204 28204 W Resources: 	at java.lang.reflect.Method.invoke(Native Method)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+01-31 20:46:37.721 28204 28204 W Resources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1091)
+01-31 20:46:37.736 28204 28255 D CompatibilityChangeReporter: Compat change id reported: 191844585; UID 10050; state: ENABLED
+01-31 20:46:37.745 28204 28255 I PluginManager: Loading plugin: PluginData(internalName=Watch32, url=https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/Watch32.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comNivinCNCCNCVerse-Cloud-Stream-ExtensionrefsheadsbuildsCNC.json.-815728861/Watch32.-1504351410.cs3, version=2)
+01-31 20:46:37.745 28204 28253 I PluginManager: Loading plugin: PluginData(internalName=Anichi, url=https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/Anichi.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comphisher98cloudstream-extensions-phisherrefsheadsbuildsrepo.json.567540747/Anichi.1965708648.cs3, version=10)
+01-31 20:46:37.747 28204 28258 I PluginManager: Loading plugin: PluginData(internalName=HiAnime, url=https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/HiAnime.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comphisher98cloudstream-extensions-phisherrefsheadsbuildsrepo.json.567540747/HiAnime.-1749740589.cs3, version=29)
+01-31 20:46:37.747 28204 28259 I PluginManager: Loading plugin: PluginData(internalName=VegaMovies, url=https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/VegaMovies.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comSaurabhKaperwanCSXbuildsCS.json.-1967555329/VegaMovies.-264642420.cs3, version=73)
+01-31 20:46:37.747 28204 28263 I PluginManager: Loading plugin: PluginData(internalName=CNC Verse, url=https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/CNC Verse.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comNivinCNCCNCVerse-Cloud-Stream-ExtensionrefsheadsbuildsCNC.json.-815728861/CNCVerse.-2008229843.cs3, version=47)
+01-31 20:46:37.748 28204 28254 W PluginManager: Failed to create local directories
+01-31 20:46:37.748 28204 28252 I PluginManager: Loading plugin: PluginData(internalName=CineStream, url=https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/CineStream.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comSaurabhKaperwanCSXbuildsCS.json.-1967555329/CineStream.-719649123.cs3, version=299)
+01-31 20:46:37.750 28204 28204 I System.out: Loaded everything
+01-31 20:46:37.754 28204 28204 I AppVisibilityProxy: onAppEnteredForeground
+01-31 20:46:37.762 28204 28255 I eam3.prereleas: Waiting for a blocking GC ClassLinker
+01-31 20:46:37.775 28204 28263 I PluginInstance: Adding Watch32 (https://watch32.sx) MainAPI
+01-31 20:46:37.776 28204 28253 I PluginInstance: Adding Anichi (NONE) MainAPI
+01-31 20:46:37.775 28204 28263 I PluginInstance: Adding Videostr (https://videostr.net) ExtractorApi
+01-31 20:46:37.776 28204 28253 I PluginInstance: Adding StreamWish (https://swiftplayers.com) ExtractorApi
+01-31 20:46:37.777 28204 28258 D PluginManager: Loading resources for HiAnime
+01-31 20:46:37.777 28204 28264 I PluginInstance: Adding Netflix (https://net20.cc) MainAPI
+01-31 20:46:37.777 28204 28264 I PluginInstance: Adding PrimeVideo (https://net20.cc) MainAPI
+01-31 20:46:37.777 28204 28264 I PluginInstance: Adding Hotstar (https://net20.cc) MainAPI
+01-31 20:46:37.777 28204 28264 I PluginInstance: Adding Disney Plus (https://net20.cc) MainAPI
+01-31 20:46:37.777 28204 28264 I PluginManager: Loaded plugin CNC Verse successfully
+01-31 20:46:37.782 28204 28258 I PluginInstance: Adding HiAnime (https://hianime.to) MainAPI
+01-31 20:46:37.792 28204 28252 I PluginInstance: Adding CineStream (https://cinemeta-catalogs.strem.io) MainAPI
+01-31 20:46:37.792 28204 28252 I PluginInstance: Adding CineSimkl (https://simkl.com) MainAPI
+01-31 20:46:37.792 28204 28258 I PluginInstance: Adding Megacloud (https://megacloud.blog) ExtractorApi
+01-31 20:46:37.794 28204 28252 I PluginInstance: Adding CineTmdb (https://www.themoviedb.org) MainAPI
+01-31 20:46:37.794 28204 28252 I PluginInstance: Adding Kwik (https://kwik.cx) ExtractorApi
+01-31 20:46:37.795 28204 28263 I PluginManager: Loaded plugin Watch32 successfully
+01-31 20:46:37.796 28204 28258 I PluginManager: Loaded plugin HiAnime successfully
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Animezia (https://animezia.cloud) ExtractorApi
+01-31 20:46:37.796 28204 28253 I PluginInstance: Adding Streamwish (https://streamwish.to) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Multimovies Vidhide (https://server2.shop) ExtractorApi
+01-31 20:46:37.796 28204 28253 I PluginInstance: Adding Filemoon (https://filemoon.to) ExtractorApi
+01-31 20:46:37.796 28204 28253 I PluginInstance: Adding Vidguard (https://listeamed.net) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Multimovies Cloud AIO (https://allinonedownloader.fun) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Strwish (https://strwish.com) ExtractorApi
+01-31 20:46:37.796 28204 28253 I PluginInstance: Adding Okrulink (https://okru.link) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Cdnwish (https://cdnwish.com) ExtractorApi
+01-31 20:46:37.796 28204 28253 I PluginManager: Loaded plugin Anichi successfully
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding DHC Play (https://dhcplay.com) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Streanwish Asn (https://asnwish.com) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Multimovies Cloud (https://multimovies.cloud) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding Pahe (https://pahe.win) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding VidHide (https://smoothpre.com) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding VidHide (https://ryderjet.com) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding SuperVideo (https://supervideo.cc) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding MixDrop (https://mixdrop.ps) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding MixDrop (https://mxdrop.to) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding MixDrop (https://mixdrop.si) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding VidHide (https://dlions.pro) ExtractorApi
+01-31 20:46:37.796 28204 28252 I PluginInstance: Adding StreamTape (https://watchadsontape.com) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding Vidguard (https://vembed.net) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding Filesim (https://multimoviesshg.com) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding Akamaicdn (https://molop.art) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding VidHidePro (https://vidhidehub.com) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding MegaUp (https://rapidairmax.site) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding MegaUp (https://megaup.live) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding MegaUp (https://megaup22.online) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginInstance: Adding MegaUp (https://4spromax.site) ExtractorApi
+01-31 20:46:37.797 28204 28252 I PluginManager: Loaded plugin CineStream successfully
+01-31 20:46:37.818 28204 28204 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+01-31 20:46:37.821 28204 28204 I SYNC_API: MAL, mal
+--------- beginning of system
+01-31 20:46:37.823 28204 28204 E ActivityThread: Failed to find provider info for android.media.tv
+01-31 20:46:37.823 28204 28204 D TvChannel: Channel not found, creating
+01-31 20:46:37.824 28204 28204 E ActivityThread: Failed to find provider info for android.media.tv
+01-31 20:46:37.824 28204 28204 D ApiError: -------------------------------------------------------------------
+01-31 20:46:37.824 28204 28204 D ApiError: safeApiCall: Unknown URL content://android.media.tv/channel
+01-31 20:46:37.824 28204 28204 D ApiError: safeApiCall: Unknown URL content://android.media.tv/channel
+01-31 20:46:37.824 28204 28204 W System.err: java.lang.IllegalArgumentException: Unknown URL content://android.media.tv/channel
+01-31 20:46:37.824 28204 28204 W System.err: 	at android.content.ContentResolver.insert(ContentResolver.java:2189)
+01-31 20:46:37.824 28204 28204 W System.err: 	at android.content.ContentResolver.insert(ContentResolver.java:2155)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.utils.TvChannelUtils.createTvChannel(TvChannelUtils.kt:152)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.MainActivity$onCreate$31.invokeSuspend(MainActivity.kt:1993)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.MainActivity$onCreate$31.invoke(Unknown Source:8)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.MainActivity$onCreate$31.invoke(Unknown Source:4)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invokeSuspend(Coroutines.kt:13)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Unknown Source:8)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Unknown Source:4)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.lagradost.cloudstream3.mvvm.ArchComponentExtKt$launchSafe$obj$1.invokeSuspend(ArchComponentExt.kt:154)
+01-31 20:46:37.824 28204 28204 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+01-31 20:46:37.824 28204 28204 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+01-31 20:46:37.824 28204 28204 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+01-31 20:46:37.824 28204 28204 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-31 20:46:37.824 28204 28204 W System.err: 	at android.os.Looper.loopOnce(Looper.java:201)
+01-31 20:46:37.824 28204 28204 W System.err: 	at android.os.Looper.loop(Looper.java:288)
+01-31 20:46:37.824 28204 28204 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:8062)
+01-31 20:46:37.824 28204 28204 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+01-31 20:46:37.824 28204 28204 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1091)
+01-31 20:46:37.824 28204 28204 D ApiError: -------------------------------------------------------------------
+01-31 20:46:37.854 28204 28204 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10050; state: ENABLED
+01-31 20:46:37.911 28204 28226 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:37.911 28204 28226 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:37.916 28204 28226 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+01-31 20:46:37.916 28204 28226 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+01-31 20:46:37.917 28204 28226 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-31 20:46:37.931 28204 28226 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@4.0::IMapper instance: default
+01-31 20:46:37.932 28204 28226 I Gralloc4: mapper 4.x is not supported
+01-31 20:46:37.932 28204 28226 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@3.0::IMapper instance: default
+01-31 20:46:37.933 28204 28226 W Gralloc3: mapper 3.x is not supported
+01-31 20:46:37.933 28204 28226 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+01-31 20:46:37.934 28204 28226 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@4.0::IAllocator instance: default
+01-31 20:46:37.934 28204 28226 W Gralloc4: allocator 4.x is not supported
+01-31 20:46:37.934 28204 28226 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@3.0::IAllocator instance: default
+01-31 20:46:37.934 28204 28226 W Gralloc3: allocator 3.x is not supported
+01-31 20:46:37.934 28204 28226 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+01-31 20:46:37.935 28204 28226 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+01-31 20:46:37.939 28204 28255 I PluginInstance: Adding VegaMovies (https://vegamovies.gratis) MainAPI
+01-31 20:46:37.948 28204 28318 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:37.948 28204 28318 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:37.949 28204 28318 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+01-31 20:46:37.951 28204 28318 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+01-31 20:46:37.977 28204 28255 I PluginInstance: Adding LuxMovies (https://luxmovies.cash) MainAPI
+01-31 20:46:38.008 28204 28255 I PluginInstance: Adding Rogmovies (https://rogmovies.world) MainAPI
+01-31 20:46:38.008 28204 28255 I PluginManager: Loaded plugin VegaMovies successfully
+01-31 20:46:38.148 28204 28285 D InAppUpdater: Fetched GitHub tag: 4e2bfd3
+01-31 20:46:38.191 28204 28204 D CoilImgLoader: setupCoilLogger: Activated EVENT_LISTENER FOR COIL
+01-31 20:46:38.191 28204 28204 D CoilImgLoader: buildImageLoader: Setting COIL Image Loader.
+01-31 20:46:38.245 28204 28284 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:38.245 28204 28284 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:38.246 28204 28284 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 282624
+01-31 20:46:38.251 28204 28329 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:38.251 28204 28329 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:38.253 28204 28329 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-31 20:46:38.522 28204 28284 I PluginManager: Plugin update done!
+01-31 20:46:39.821 28204 28282 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:39.821 28204 28282 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:39.822 28204 28282 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 57344
+01-31 20:46:41.218 28204 28204 I NavComponent: Navigating to fragment: 2131361880
+01-31 20:46:41.288 28204 28281 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:41.288 28204 28281 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:41.289 28204 28281 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+01-31 20:46:41.300 28204 28282 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+01-31 20:46:41.304 28204 28276 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:41.304 28204 28276 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:41.305 28204 28263 D eam3.prereleas: Features: 0 0 0
+01-31 20:46:41.305 28204 28263 E eam3.prereleas: vulkan version is 4211013
+01-31 20:46:41.305 28204 28276 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+01-31 20:46:41.305 28204 28263 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+01-31 20:46:43.251 28204 28339 D ProfileInstaller: Skipping profile installation for com.lagradost.cloudstream3.prerelease
+01-31 20:46:43.602 28204 28214 I eam3.prereleas: JIT allocated 76KB for compiled code of java.lang.Object com.megix.CineSimklProvider.load(java.lang.String, kotlin.coroutines.Continuation)
+01-31 20:46:43.602 28204 28214 I eam3.prereleas: Compiler allocated 8526KB to compile java.lang.Object com.megix.CineSimklProvider.load(java.lang.String, kotlin.coroutines.Continuation)
+01-31 20:46:45.753 28204 28256 D DiscoveryListener: Discovery failed: _fcast._tcp, error code: 0
+01-31 20:46:46.347 28204 28204 I NavComponent: Navigating to fragment: 2131361885
+01-31 20:46:48.810 28340 28340 I eam3.prerelease: type=1400 audit(0.0:4591): avc: denied { execute_no_trans } for path="/system/bin/logcat" dev="sda6" ino=766 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+01-31 20:46:48.810 28340 28340 I eam3.prerelease: type=1400 audit(0.0:4592): avc: denied { read } for name="linker64" dev="sda6" ino=757 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=lnk_file permissive=1 app=com.lagradost.cloudstream3.prerelease
