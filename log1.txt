@@ -1,0 +1,1676 @@
+--------- beginning of main
+02-01 12:26:55.181  5544  5753 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+02-01 12:26:55.181  5544  5753 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+02-01 12:26:55.181  5544  5753 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+02-01 12:26:55.181  5544  5753 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+02-01 12:26:55.181  5544  5753 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+02-01 12:26:55.181  5544  5753 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+02-01 12:26:55.181  5544  5753 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+02-01 12:26:55.182  5544  5753 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+02-01 12:26:55.182  5544  5753 D CCodecConfig: c2 config diff is Dict {
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 coded.pl.level = 0
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 input.delay.value = 0
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 output.delay.value = 2
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   string output.media-type.value = "audio/raw"
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+02-01 12:26:55.182  5544  5753 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+02-01 12:26:55.182  5544  5753 D CCodecConfig: }
+02-01 12:26:55.182  5544  5753 I MediaCodec: MediaCodec will operate in async mode
+02-01 12:26:55.183  5544  5753 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+02-01 12:26:55.183  5544  5753 D CCodecConfig: no c2 equivalents for log-session-id
+02-01 12:26:55.183  5544  5753 D CCodecConfig: no c2 equivalents for max-output-channel-count
+02-01 12:26:55.183  5544  5753 D CCodecConfig: no c2 equivalents for flags
+02-01 12:26:55.183  5544  5753 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+02-01 12:26:55.183  5544  5753 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+02-01 12:26:55.183  5544  5753 W Codec2Client: query -- param skipped: index = 1107298332.
+02-01 12:26:55.183  5544  5753 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-album-mode = 0
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-boost-level = 127
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-cut-level = 127
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-effect-type = 3
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-encoded-target-level = -1
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-max-output-channel_count = 8
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-target-ref-level = 64
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t bitrate = 64000
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t channel-count = 2
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t level = 0
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t max-input-size = 8192
+02-01 12:26:55.183  5544  5753 D CCodec  :   string mime = "audio/mp4a-latm"
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t profile = 2
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t sample-rate = 48000
+02-01 12:26:55.183  5544  5753 D CCodec  : }
+02-01 12:26:55.183  5544  5753 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-album-mode = 0
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-boost-level = 127
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-cut-level = 127
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-effect-type = 3
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-drc-output-loudness = -1
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-encoded-target-level = -1
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-max-output-channel_count = 8
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t aac-target-ref-level = 64
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t channel-count = 2
+02-01 12:26:55.183  5544  5753 D CCodec  :   string mime = "audio/raw"
+02-01 12:26:55.183  5544  5753 D CCodec  :   int32_t sample-rate = 48000
+02-01 12:26:55.183  5544  5753 D CCodec  : }
+02-01 12:26:55.183  5544  5753 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+02-01 12:26:55.183  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:26:55.184  5544  5753 W Codec2Client: query -- param skipped: index = 1342179345.
+02-01 12:26:55.184  5544  5753 W Codec2Client: query -- param skipped: index = 2415921170.
+02-01 12:26:55.184  5544  5753 W Codec2Client: query -- param skipped: index = 1610614798.
+02-01 12:26:55.184  5544  5753 D C2Store : Using ION
+02-01 12:26:55.184  5544  5753 D CCodecBufferChannel: [c2.android.aac.decoder#433] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+02-01 12:26:55.185  5544  5753 I CCodecBufferChannel: [c2.android.aac.decoder#433] Created output block pool with allocatorID 16 => poolID 27 - OK
+02-01 12:26:55.185  5544  5753 D CCodecBufferChannel: [c2.android.aac.decoder#433] Configured output block pool ids 27 => OK
+02-01 12:26:55.185  5544  5753 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+02-01 12:26:55.202  5544  5544 I CS3ExoPlayer: Handle event: TracksChangedEvent(source=Player)
+02-01 12:26:55.289  5544  5746 D MediaCodec: [OMX.qcom.video.decoder.avc] setting dataspace on output surface to #104
+02-01 12:26:55.296  5544  5746 W MediaCodec: mapFormat: no mediaType information
+02-01 12:26:55.734  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:55.734  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:55.734  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:55.734  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:26:55.734  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:26:55.734  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:26:55.734  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:26:55.734  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:26:55.734  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:55.734  5544  5586 I PreviewImgM3u8: Generating preview for 250
+02-01 12:26:55.734  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@d1d8a77): Cookies: null
+02-01 12:26:55.734  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:26:55.734  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@d1d8a77): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:26:55.968  5544  5740 W PesReader: Unexpected start code prefix: 3211317
+02-01 12:26:55.968  5544  5740 W PesReader: Unexpected start code prefix: 2162739
+02-01 12:26:55.968  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:26:56.220  5544  5746 D eam3.prereleas: Features: 0 0 0
+02-01 12:26:56.220  5544  5746 E eam3.prereleas: vulkan version is 4211013
+02-01 12:26:56.222  5544  5746 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 3112960
+02-01 12:26:56.237  5544  5746 D SoftwareRenderer: setting dataspace on output surface to #104
+02-01 12:26:56.239  5544  5544 I CS3ExoPlayer: Handle event: ResizedEvent(height=1080, width=1920, source=Player)
+02-01 12:26:56.242  5544  5544 I CS3ExoPlayer: Rendered first frame
+02-01 12:26:56.242  5544  5544 I CS3ExoPlayer: setPreferredSubtitles init SubtitleData(originalName=English, nameSuffix=1, url=https://mgstatics.xyz/subtitle/0852d0987e939e1a12e4b3fabe3578b0/0852d0987e939e1a12e4b3fabe3578b0.vtt, origin=URL, mimeType=text/vtt, headers={}, languageCode=en)
+02-01 12:26:56.242  5544  5544 I CS3ExoPlayer: setPreferredSubtitles IS_ACTIVE
+02-01 12:26:56.242  5544  5544 I CS3ExoPlayer: Handle event: ResizedEvent(height=1080, width=1920, source=Player)
+02-01 12:26:56.243  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=8994, toMs=8994, durationMs=1430000)
+02-01 12:26:56.244  5544  5609 I EpisodeSkip: Requesting SkipStamp from {mal=61159, simkl={"Mal":"61159","AniList":"187464"}, anilist=187464, kitsu=50149}
+02-01 12:26:56.245  5544  5609 I AniSkip : Requesting https://api.aniskip.com/v2/skip-times/61159/17?types[]=ed&types[]=mixed-ed&types[]=mixed-op&types[]=op&types[]=recap&episodeLength=1430
+02-01 12:26:56.257  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=8994, toMs=8994, durationMs=1430000)
+02-01 12:26:56.259  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=8994, toMs=8994, durationMs=1430000)
+02-01 12:26:56.262  5544  5882 I CustomDecoder: Parse subtitle, current parser: null
+02-01 12:26:56.262  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPaused, isPlaying=IsPlaying, source=Player)
+02-01 12:26:56.269  5544  5544 I CS3ExoPlayer: Handle event: RequestAudioFocusEvent(source=Player)
+02-01 12:26:56.273  5544  5544 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:26:56.273  5544  5544 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:26:56.273  5544  5882 I CustomDecoder: Detected encoding with charset UTF-8 and override = null
+02-01 12:26:56.274  5544  5882 I CustomDecoder: Subtitle preview: WEBVTT
+02-01 12:26:56.274  5544  5882 I CustomDecoder: 
+02-01 12:26:56.274  5544  5882 I CustomDecoder: 00:14.580 --> 00:16.95
+02-01 12:26:56.274  5544  5882 I CustomDecoder: Parser selected: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:26:56.274  5544  5544 I CS3ExoPlayer: Handle event: EmbeddedSubtitlesFetchedEvent(tracks=[], source=Player)
+02-01 12:26:56.274  5544  5544 I CS3ExoPlayer: Handle event: TracksChangedEvent(source=Player)
+02-01 12:26:56.276  5544  5544 I CS3ExoPlayer: Handle event: SubtitlesUpdatedEvent(source=Player)
+02-01 12:26:56.298  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:26:56.302  5544  5746 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 3112960
+02-01 12:26:56.325  5544  5746 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 3112960
+02-01 12:26:56.538  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:56.538  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:56.538  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:56.538  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:26:56.538  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:26:56.538  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:26:56.538  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:26:56.538  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:26:56.538  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:56.539  5544  5586 I PreviewImgM3u8: Generating preview for 41
+02-01 12:26:56.539  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@81ad799): Cookies: null
+02-01 12:26:56.539  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:26:56.539  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@81ad799): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:26:57.006  5544  5740 W PesReader: Unexpected start code prefix: 3211333
+02-01 12:26:57.006  5544  5740 W PesReader: Unexpected start code prefix: 2162757
+02-01 12:26:57.006  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:26:57.017  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:57.017  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:57.017  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:57.017  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:26:57.017  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:26:57.017  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:26:57.017  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:26:57.017  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:26:57.017  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:57.018  5544  5586 I PreviewImgM3u8: Generating preview for 124
+02-01 12:26:57.018  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@52d005d): Cookies: null
+02-01 12:26:57.018  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:26:57.018  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@52d005d): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:26:57.026  5544  5609 I AniSkip : Found false with 0 results
+02-01 12:26:57.026  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=9738, toMs=9738, durationMs=1430000)
+02-01 12:26:57.460  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:57.460  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:57.460  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:57.460  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:26:57.461  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:26:57.461  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:26:57.461  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:26:57.461  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:26:57.461  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:57.461  5544  5586 I PreviewImgM3u8: Generating preview for 208
+02-01 12:26:57.461  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@1ed8bcc): Cookies: null
+02-01 12:26:57.461  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:26:57.461  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@1ed8bcc): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:26:58.930  5544  5740 W PesReader: Unexpected start code prefix: 3211357
+02-01 12:26:58.930  5544  5740 W PesReader: Unexpected start code prefix: 2162781
+02-01 12:26:58.930  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:26:59.413  5544  5740 W PesReader: Unexpected start code prefix: 3211373
+02-01 12:26:59.413  5544  5740 W PesReader: Unexpected start code prefix: 2162797
+02-01 12:26:59.413  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:26:59.593  5544  5586 I PreviewImgM3u8: Generating preview for 291
+02-01 12:26:59.593  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@1e041f7): Cookies: null
+02-01 12:26:59.593  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:26:59.594  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@1e041f7): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:26:59.952  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:59.953  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:59.953  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:26:59.953  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:26:59.953  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:26:59.953  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:26:59.953  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:26:59.953  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:26:59.953  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:26:59.953  5544  5586 I PreviewImgM3u8: Generating preview for 20
+02-01 12:26:59.953  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@fd17ffc): Cookies: null
+02-01 12:26:59.953  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:26:59.953  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@fd17ffc): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:00.368  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 203/208 (recycle/alloc) - 5/207 (fetch/transfer)
+02-01 12:27:00.766  5544  5740 W PesReader: Unexpected start code prefix: 3211385
+02-01 12:27:00.766  5544  5740 W PesReader: Unexpected start code prefix: 2162807
+02-01 12:27:00.766  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:01.576  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:01.576  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:01.576  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:01.576  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:01.576  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:01.576  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:01.576  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:01.576  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:01.576  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:01.576  5544  5586 I PreviewImgM3u8: Generating preview for 61
+02-01 12:27:01.576  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@9b49fe8): Cookies: null
+02-01 12:27:01.576  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:01.576  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@9b49fe8): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:02.109  5544  5740 W PesReader: Unexpected start code prefix: 3211397
+02-01 12:27:02.109  5544  5740 W PesReader: Unexpected start code prefix: 2162821
+02-01 12:27:02.109  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:02.785  5544  5586 I PreviewImgM3u8: Generating preview for 103
+02-01 12:27:02.785  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@53f0af5): Cookies: null
+02-01 12:27:02.785  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:02.785  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@53f0af5): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:03.111  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:03.111  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:03.111  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:03.111  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:03.111  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:03.111  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:03.111  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:03.111  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:03.111  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:03.111  5544  5586 I PreviewImgM3u8: Generating preview for 145
+02-01 12:27:03.112  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@58f6fb): Cookies: null
+02-01 12:27:03.112  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:03.112  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@58f6fb): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:04.267  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:04.267  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:04.267  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:04.267  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:04.267  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:04.267  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:04.267  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:04.267  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:04.267  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:04.267  5544  5586 I PreviewImgM3u8: Generating preview for 187
+02-01 12:27:04.267  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@2b607d7): Cookies: null
+02-01 12:27:04.267  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:04.267  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@2b607d7): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:05.087  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=UI, fromMs=17802, toMs=27791, durationMs=1430000)
+02-01 12:27:05.089  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPlaying, isPlaying=IsBuffering, source=Player)
+02-01 12:27:05.091  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:05.091  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=27802, toMs=27802, durationMs=1430000)
+02-01 12:27:05.092  5544  5753 D CCodecBuffers: [c2.android.aac.decoder#433:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+02-01 12:27:05.092  5544  5753 D CCodecBuffers: [c2.android.aac.decoder#433:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+02-01 12:27:05.092  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:05.092  5544  5753 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+02-01 12:27:05.092  5544  5753 W Codec2Client: query -- param skipped: index = 1342179345.
+02-01 12:27:05.092  5544  5753 W Codec2Client: query -- param skipped: index = 2415921170.
+02-01 12:27:05.092  5544  5753 W Codec2Client: query -- param skipped: index = 1610614798.
+02-01 12:27:05.092  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=27802, toMs=27802, durationMs=1430000)
+02-01 12:27:05.126  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:05.127  5544  5658 D eam3.prereleas: VAddressStream is reused...
+02-01 12:27:05.127  5544  5658 D eam3.prereleas: Features: 0 0 0
+02-01 12:27:05.127  5544  5658 E eam3.prereleas: vulkan version is 4211013
+02-01 12:27:05.128  5544  5658 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-01 12:27:05.587  5544  5740 W PesReader: Unexpected start code prefix: 3211429
+02-01 12:27:05.587  5544  5740 W PesReader: Unexpected start code prefix: 2162851
+02-01 12:27:05.587  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:05.591  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:05.591  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:05.591  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:05.591  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:05.592  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:05.592  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:05.592  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:05.592  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:05.592  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:05.592  5544  5586 I PreviewImgM3u8: Generating preview for 228
+02-01 12:27:05.592  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@f370260): Cookies: null
+02-01 12:27:05.592  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:05.592  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@f370260): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:05.715  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=27502, toMs=27502, durationMs=1430000)
+02-01 12:27:05.717  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPaused, isPlaying=IsPlaying, source=Player)
+02-01 12:27:05.720  5544  5544 I CS3ExoPlayer: Handle event: RequestAudioFocusEvent(source=Player)
+02-01 12:27:05.722  5544  5882 I CustomDecoder: Parse subtitle, current parser: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:27:05.723  5544  5882 I CustomDecoder: Detected encoding with charset UTF-8 and override = null
+02-01 12:27:05.723  5544  5882 I CustomDecoder: Subtitle preview: WEBVTT
+02-01 12:27:05.723  5544  5882 I CustomDecoder: 
+02-01 12:27:05.723  5544  5882 I CustomDecoder: 00:14.580 --> 00:16.95
+02-01 12:27:05.723  5544  5882 I CustomDecoder: Parser selected: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:27:05.725  5544  5544 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:05.726  5544  5544 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:05.746  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:05.812  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 452/457 (recycle/alloc) - 5/455 (fetch/transfer)
+02-01 12:27:06.548  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:06.548  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:06.548  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:06.548  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:06.548  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:06.548  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:06.548  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:06.548  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:06.548  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:06.548  5544  5586 I PreviewImgM3u8: Generating preview for 270
+02-01 12:27:06.548  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@e282233): Cookies: null
+02-01 12:27:06.548  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:06.548  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@e282233): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:06.637  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=UI, fromMs=28386, toMs=38386, durationMs=1430000)
+02-01 12:27:06.640  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPlaying, isPlaying=IsBuffering, source=Player)
+02-01 12:27:06.643  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=38386, toMs=38386, durationMs=1430000)
+02-01 12:27:06.643  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:06.644  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=38386, toMs=38386, durationMs=1430000)
+02-01 12:27:06.645  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:06.645  5544  5753 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+02-01 12:27:06.646  5544  5753 W Codec2Client: query -- param skipped: index = 1342179345.
+02-01 12:27:06.646  5544  5753 W Codec2Client: query -- param skipped: index = 2415921170.
+02-01 12:27:06.646  5544  5753 W Codec2Client: query -- param skipped: index = 1610614798.
+02-01 12:27:06.674  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:06.688  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:08.520  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=38086, toMs=38086, durationMs=1430000)
+02-01 12:27:08.655  5544  5586 I PreviewImgM3u8: Generating preview for 312
+02-01 12:27:08.655  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@dede087): Cookies: null
+02-01 12:27:08.656  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:08.656  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@dede087): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:09.541  5544  5740 W PesReader: Unexpected start code prefix: 3211479
+02-01 12:27:09.541  5544  5740 W PesReader: Unexpected start code prefix: 2162903
+02-01 12:27:09.541  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:09.841  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPaused, isPlaying=IsPlaying, source=Player)
+02-01 12:27:09.844  5544  5544 I CS3ExoPlayer: Handle event: RequestAudioFocusEvent(source=Player)
+02-01 12:27:09.846  5544  5544 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:09.846  5544  5544 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:09.850  5544  5882 I CustomDecoder: Parse subtitle, current parser: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:27:09.851  5544  5882 I CustomDecoder: Detected encoding with charset UTF-8 and override = null
+02-01 12:27:09.851  5544  5882 I CustomDecoder: Subtitle preview: WEBVTT
+02-01 12:27:09.851  5544  5882 I CustomDecoder: 
+02-01 12:27:09.851  5544  5882 I CustomDecoder: 00:14.580 --> 00:16.95
+02-01 12:27:09.851  5544  5882 I CustomDecoder: Parser selected: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:27:09.876  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:09.973  5544  5586 I PreviewImgM3u8: Generating preview for 10
+02-01 12:27:09.973  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@879d80): Cookies: null
+02-01 12:27:09.973  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:09.973  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@879d80): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:10.188  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:10.188  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:10.188  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:10.188  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:10.188  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:10.188  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:10.188  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:10.188  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:10.188  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:10.188  5544  5586 I PreviewImgM3u8: Generating preview for 30
+02-01 12:27:10.188  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@b3aaffe): Cookies: null
+02-01 12:27:10.188  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:10.188  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@b3aaffe): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:10.963  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 557/562 (recycle/alloc) - 9/559 (fetch/transfer)
+02-01 12:27:11.358  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPlaying, isPlaying=IsBuffering, source=Player)
+02-01 12:27:11.359  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=39577, toMs=39577, durationMs=1430000)
+02-01 12:27:11.360  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=39577, toMs=39577, durationMs=1430000)
+02-01 12:27:11.388  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:12.344  5544  5586 I PreviewImgM3u8: Generating preview for 51
+02-01 12:27:12.344  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@84b9c98): Cookies: null
+02-01 12:27:12.344  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:12.344  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@84b9c98): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:13.013  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:13.013  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:13.013  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:13.013  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:13.013  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:13.013  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:13.013  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:13.013  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:13.013  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:13.013  5544  5586 I PreviewImgM3u8: Generating preview for 72
+02-01 12:27:13.013  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@1b17f57): Cookies: null
+02-01 12:27:13.013  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:13.014  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@1b17f57): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:15.244  5544  5544 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:15.244  5544  5544 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:15.244  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPaused, isPlaying=IsPlaying, source=Player)
+02-01 12:27:15.247  5544  5544 I CS3ExoPlayer: Handle event: RequestAudioFocusEvent(source=Player)
+02-01 12:27:15.274  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:15.279  5544  5658 D eam3.prereleas: VAddressStream is reused...
+02-01 12:27:15.279  5544  5658 D eam3.prereleas: Features: 0 0 0
+02-01 12:27:15.279  5544  5658 E eam3.prereleas: vulkan version is 4211013
+02-01 12:27:15.280  5544  5658 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-01 12:27:15.429  5544  5586 I PreviewImgM3u8: Generating preview for 93
+02-01 12:27:15.429  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@d7114ae): Cookies: null
+02-01 12:27:15.429  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:15.429  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@d7114ae): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:15.829  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=UI, fromMs=39993, toMs=49993, durationMs=1430000)
+02-01 12:27:15.831  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPlaying, isPlaying=IsBuffering, source=Player)
+02-01 12:27:15.837  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:15.838  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=49993, toMs=49993, durationMs=1430000)
+02-01 12:27:15.839  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=49993, toMs=49993, durationMs=1430000)
+02-01 12:27:15.842  5544  5753 D CCodecBuffers: [c2.android.aac.decoder#433:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+02-01 12:27:15.842  5544  5753 D CCodecBuffers: [c2.android.aac.decoder#433:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+02-01 12:27:15.842  5544  5753 D CCodecBuffers: [c2.android.aac.decoder#433:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 2
+02-01 12:27:15.842  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:15.842  5544  5753 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+02-01 12:27:15.842  5544  5753 W Codec2Client: query -- param skipped: index = 1342179345.
+02-01 12:27:15.842  5544  5753 W Codec2Client: query -- param skipped: index = 2415921170.
+02-01 12:27:15.842  5544  5753 W Codec2Client: query -- param skipped: index = 1610614798.
+02-01 12:27:15.860  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:15.878  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:15.945  5544  5554 I eam3.prereleas: NativeAlloc concurrent copying GC freed 255688(11MB) AllocSpace objects, 45(1872KB) LOS objects, 33% free, 48MB/72MB, paused 32us,20us total 115.518ms
+02-01 12:27:16.165  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=UI, fromMs=49720, toMs=59720, durationMs=1430000)
+02-01 12:27:16.169  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:16.169  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:27:16.169  5544  5753 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+02-01 12:27:16.169  5544  5753 W Codec2Client: query -- param skipped: index = 1342179345.
+02-01 12:27:16.169  5544  5753 W Codec2Client: query -- param skipped: index = 2415921170.
+02-01 12:27:16.169  5544  5753 W Codec2Client: query -- param skipped: index = 1610614798.
+02-01 12:27:16.194  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:16.210  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:16.298  5544  5725 W chromium: [0201/122716.298124:WARNING:net/spdy/spdy_session.cc:3074] Received HEADERS for invalid stream 21
+02-01 12:27:16.406  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 4(32768 size) used buffers - 611/616 (recycle/alloc) - 14/605 (fetch/transfer)
+02-01 12:27:16.488  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=59420, toMs=59420, durationMs=1430000)
+02-01 12:27:16.530  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPaused, isPlaying=IsPlaying, source=Player)
+02-01 12:27:16.536  5544  5544 I CS3ExoPlayer: Handle event: RequestAudioFocusEvent(source=Player)
+02-01 12:27:16.540  5544  5544 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:16.540  5544  5544 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:27:16.541  5544  5882 I CustomDecoder: Parse subtitle, current parser: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:27:16.542  5544  5882 I CustomDecoder: Detected encoding with charset UTF-8 and override = null
+02-01 12:27:16.542  5544  5882 I CustomDecoder: Subtitle preview: WEBVTT
+02-01 12:27:16.542  5544  5882 I CustomDecoder: 
+02-01 12:27:16.542  5544  5882 I CustomDecoder: 00:14.580 --> 00:16.95
+02-01 12:27:16.542  5544  5882 I CustomDecoder: Parser selected: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:27:16.575  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:27:16.635  5544  5586 I PreviewImgM3u8: Generating preview for 114
+02-01 12:27:16.635  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@54594ca): Cookies: null
+02-01 12:27:16.635  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:16.635  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@54594ca): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:16.906  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:16.906  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:16.906  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:16.906  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:16.906  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:16.906  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:16.906  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:16.906  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:16.906  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:16.906  5544  5586 I PreviewImgM3u8: Generating preview for 135
+02-01 12:27:16.906  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@adf11b3): Cookies: null
+02-01 12:27:16.906  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:16.906  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@adf11b3): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:17.198  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:17.198  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:17.198  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:17.198  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:17.198  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:17.198  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:17.198  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:17.198  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:17.198  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:17.198  5544  5586 I PreviewImgM3u8: Generating preview for 156
+02-01 12:27:17.198  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@34606e9): Cookies: null
+02-01 12:27:17.198  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:17.198  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@34606e9): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:17.417  5544  5740 W PesReader: Unexpected start code prefix: 3211627
+02-01 12:27:17.417  5544  5740 W PesReader: Unexpected start code prefix: 2163049
+02-01 12:27:17.417  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:17.729  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:17.729  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:17.729  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:17.729  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:17.730  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:17.730  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:17.730  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:17.730  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:17.730  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:17.730  5544  5586 I PreviewImgM3u8: Generating preview for 177
+02-01 12:27:17.730  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@2ef28a5): Cookies: null
+02-01 12:27:17.730  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:17.730  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@2ef28a5): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:18.130  5544  5740 W PesReader: Unexpected start code prefix: 3211643
+02-01 12:27:18.130  5544  5740 W PesReader: Unexpected start code prefix: 2163067
+02-01 12:27:18.130  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:18.252  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:18.252  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:18.252  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:18.252  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:18.252  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:18.252  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:18.252  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:18.252  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:18.252  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:18.252  5544  5586 I PreviewImgM3u8: Generating preview for 197
+02-01 12:27:18.252  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@74eaa21): Cookies: null
+02-01 12:27:18.252  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:18.252  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@74eaa21): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:19.084  5544  5740 W PesReader: Unexpected start code prefix: 3211653
+02-01 12:27:19.084  5544  5740 W PesReader: Unexpected start code prefix: 2163077
+02-01 12:27:19.084  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:19.268  5544  5586 I PreviewImgM3u8: Generating preview for 218
+02-01 12:27:19.268  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@8afad34): Cookies: null
+02-01 12:27:19.268  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:19.268  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@8afad34): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:19.733  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:19.733  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:19.733  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:19.733  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:19.733  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:19.733  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:19.733  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:19.733  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:19.733  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:19.733  5544  5586 I PreviewImgM3u8: Generating preview for 239
+02-01 12:27:19.733  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@50368d2): Cookies: null
+02-01 12:27:19.733  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:19.733  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@50368d2): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:20.317  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:20.317  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:20.317  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:20.317  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:20.317  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:20.317  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:20.317  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:20.317  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:20.317  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:20.317  5544  5586 I PreviewImgM3u8: Generating preview for 260
+02-01 12:27:20.317  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@1f17c59): Cookies: null
+02-01 12:27:20.317  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:20.317  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@1f17c59): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:20.403  5544  5740 W PesReader: Unexpected start code prefix: 3211683
+02-01 12:27:20.403  5544  5740 W PesReader: Unexpected start code prefix: 2163105
+02-01 12:27:20.403  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:21.416  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:21.416  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:21.416  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:21.416  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:21.416  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:21.416  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:21.416  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:21.416  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:21.416  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:21.417  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:21.417  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:21.417  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:21.417  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:21.417  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:21.417  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:21.417  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:21.417  5544  5586 I PreviewImgM3u8: Generating preview for 281
+02-01 12:27:21.417  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@c348515): Cookies: null
+02-01 12:27:21.417  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:21.417  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@c348515): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:21.742  5544  5740 W PesReader: Unexpected start code prefix: 3211715
+02-01 12:27:21.742  5544  5740 W PesReader: Unexpected start code prefix: 2163139
+02-01 12:27:21.742  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:21.797  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 874/879 (recycle/alloc) - 14/870 (fetch/transfer)
+02-01 12:27:21.845  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:21.845  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:21.845  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:21.845  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:21.845  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:21.845  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:21.845  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:21.845  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:21.845  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:21.845  5544  5586 I PreviewImgM3u8: Generating preview for 302
+02-01 12:27:21.845  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@522abb8): Cookies: null
+02-01 12:27:21.845  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:21.845  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@522abb8): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:23.720  5544  5586 I PreviewImgM3u8: Generating preview for 323
+02-01 12:27:23.720  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@4d134f6): Cookies: null
+02-01 12:27:23.720  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:23.720  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@4d134f6): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:23.787  5544  5740 W PesReader: Unexpected start code prefix: 3211771
+02-01 12:27:23.787  5544  5740 W PesReader: Unexpected start code prefix: 2163193
+02-01 12:27:23.787  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:23.984  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:23.984  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:23.984  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:23.984  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:23.984  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:23.984  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:23.984  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:23.984  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:23.984  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:23.984  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:23.984  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:23.984  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:23.984  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:23.984  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:23.985  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:23.985  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:23.985  5544  5586 I PreviewImgM3u8: Generating preview for 5
+02-01 12:27:23.985  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@df141cd): Cookies: null
+02-01 12:27:23.985  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:23.985  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@df141cd): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:24.721  5544  5740 W PesReader: Unexpected start code prefix: 3211785
+02-01 12:27:24.721  5544  5740 W PesReader: Unexpected start code prefix: 2163209
+02-01 12:27:24.721  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:25.092  5544  5586 I PreviewImgM3u8: Generating preview for 15
+02-01 12:27:25.092  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@339d0): Cookies: null
+02-01 12:27:25.092  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:25.092  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@339d0): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:25.247  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:25.247  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:25.247  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:25.247  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:25.248  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:25.248  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:25.248  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:25.248  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:25.248  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:25.248  5544  5586 I PreviewImgM3u8: Generating preview for 25
+02-01 12:27:25.248  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@b95ecce): Cookies: null
+02-01 12:27:25.248  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:25.248  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@b95ecce): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:26.145  5544  5740 W PesReader: Unexpected start code prefix: 3211805
+02-01 12:27:26.145  5544  5740 W PesReader: Unexpected start code prefix: 2163229
+02-01 12:27:26.145  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:26.150  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:26.150  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:26.150  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:26.150  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:26.150  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:26.150  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:26.150  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:26.150  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:26.150  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:26.150  5544  5586 I PreviewImgM3u8: Generating preview for 36
+02-01 12:27:26.150  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@281dd85): Cookies: null
+02-01 12:27:26.150  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:26.150  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@281dd85): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:26.832  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:26.832  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:26.832  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:26.832  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:26.833  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:26.833  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:26.833  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:26.833  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:26.833  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:26.833  5544  5586 I PreviewImgM3u8: Generating preview for 46
+02-01 12:27:26.833  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@57472e8): Cookies: null
+02-01 12:27:26.833  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:26.833  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@57472e8): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:27.101  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1123/1128 (recycle/alloc) - 14/1119 (fetch/transfer)
+02-01 12:27:28.617  5544  5740 W PesReader: Unexpected start code prefix: 3211843
+02-01 12:27:28.617  5544  5740 W PesReader: Unexpected start code prefix: 2163267
+02-01 12:27:28.617  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:29.869  5544  5586 I PreviewImgM3u8: Generating preview for 57
+02-01 12:27:29.869  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@203c5e7): Cookies: null
+02-01 12:27:29.869  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:29.869  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@203c5e7): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:31.443  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:31.444  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:31.444  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:31.444  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:31.444  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:31.444  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:31.444  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:31.444  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:31.444  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:31.444  5544  5586 I PreviewImgM3u8: Generating preview for 67
+02-01 12:27:31.444  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@6a3383d): Cookies: null
+02-01 12:27:31.444  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:31.444  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@6a3383d): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:31.493  5544  5740 W PesReader: Unexpected start code prefix: 3211877
+02-01 12:27:31.493  5544  5740 W PesReader: Unexpected start code prefix: 2163301
+02-01 12:27:31.493  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:32.420  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1372/1377 (recycle/alloc) - 14/1368 (fetch/transfer)
+02-01 12:27:32.529  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:32.529  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:32.529  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:32.529  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:32.529  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:32.529  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:32.529  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:32.529  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:32.529  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:32.529  5544  5586 I PreviewImgM3u8: Generating preview for 78
+02-01 12:27:32.529  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@7901b39): Cookies: null
+02-01 12:27:32.530  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:32.530  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@7901b39): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:33.491  5544  5740 W PesReader: Unexpected start code prefix: 3211903
+02-01 12:27:33.491  5544  5740 W PesReader: Unexpected start code prefix: 2163327
+02-01 12:27:33.491  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:34.166  5544  5586 I PreviewImgM3u8: Generating preview for 88
+02-01 12:27:34.166  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@eba432c): Cookies: null
+02-01 12:27:34.166  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:34.166  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@eba432c): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:35.192  5544  5740 W PesReader: Unexpected start code prefix: 3211925
+02-01 12:27:35.192  5544  5740 W PesReader: Unexpected start code prefix: 2163347
+02-01 12:27:35.192  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:35.689  5544  5586 I PreviewImgM3u8: Generating preview for 98
+02-01 12:27:35.690  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@4821b8a): Cookies: null
+02-01 12:27:35.690  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:35.690  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@4821b8a): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:35.912  5544  5740 W PesReader: Unexpected start code prefix: 3211951
+02-01 12:27:35.912  5544  5740 W PesReader: Unexpected start code prefix: 2163375
+02-01 12:27:35.912  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:35.927  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:35.927  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:35.927  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:35.927  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:35.927  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:35.927  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:35.927  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:35.927  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:35.927  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:35.927  5544  5586 I PreviewImgM3u8: Generating preview for 109
+02-01 12:27:35.927  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@31e6618): Cookies: null
+02-01 12:27:35.928  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:35.928  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@31e6618): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:37.185  5544  5740 W PesReader: Unexpected start code prefix: 3211967
+02-01 12:27:37.185  5544  5740 W PesReader: Unexpected start code prefix: 2163391
+02-01 12:27:37.185  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:37.372  5544  5586 I PreviewImgM3u8: Generating preview for 119
+02-01 12:27:37.372  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@49fcbc4): Cookies: null
+02-01 12:27:37.373  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:37.373  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@49fcbc4): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:37.796  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:37.796  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:37.796  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:37.796  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:37.796  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:37.796  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:37.796  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:37.796  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:37.796  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:37.796  5544  5586 I PreviewImgM3u8: Generating preview for 130
+02-01 12:27:37.796  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@40291e2): Cookies: null
+02-01 12:27:37.797  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:37.797  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@40291e2): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:37.878  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 1628/1633 (recycle/alloc) - 14/1624 (fetch/transfer)
+02-01 12:27:38.092  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:38.092  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:38.092  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:38.092  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:38.093  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:38.093  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:38.093  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:38.093  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:38.093  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:38.093  5544  5586 I PreviewImgM3u8: Generating preview for 140
+02-01 12:27:38.093  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@b5144a9): Cookies: null
+02-01 12:27:38.093  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:38.093  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@b5144a9): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:38.612  5544  5740 W PesReader: Unexpected start code prefix: 3212001
+02-01 12:27:38.612  5544  5740 W PesReader: Unexpected start code prefix: 2163425
+02-01 12:27:38.612  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:38.817  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:38.817  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:38.817  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:38.817  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:38.818  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:38.818  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:38.818  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:38.818  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:38.818  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:38.818  5544  5586 I PreviewImgM3u8: Generating preview for 151
+02-01 12:27:38.818  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@c6acf5c): Cookies: null
+02-01 12:27:38.818  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:38.818  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@c6acf5c): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:39.340  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:39.340  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:39.340  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:39.340  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:39.340  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:39.340  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:39.340  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:39.340  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:39.340  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:39.340  5544  5586 I PreviewImgM3u8: Generating preview for 161
+02-01 12:27:39.340  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@ebc53eb): Cookies: null
+02-01 12:27:39.340  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:39.340  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@ebc53eb): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:40.028  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:40.028  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:40.028  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:40.028  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:40.028  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:40.028  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:40.028  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:40.028  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:40.028  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:40.028  5544  5586 I PreviewImgM3u8: Generating preview for 172
+02-01 12:27:40.028  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@98b1106): Cookies: null
+02-01 12:27:40.028  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:40.028  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@98b1106): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:41.186  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:41.186  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:41.186  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:41.186  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:41.186  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:41.186  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:41.186  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:41.186  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:41.186  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:41.186  5544  5586 I PreviewImgM3u8: Generating preview for 182
+02-01 12:27:41.186  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@6c5991d): Cookies: null
+02-01 12:27:41.186  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:41.186  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@6c5991d): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:42.971  5544  5586 I PreviewImgM3u8: Generating preview for 192
+02-01 12:27:42.971  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@53b560): Cookies: null
+02-01 12:27:42.971  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:42.971  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@53b560): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:43.094  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 4(32768 size) used buffers - 1875/1880 (recycle/alloc) - 15/1870 (fetch/transfer)
+02-01 12:27:43.235  5544  5740 W PesReader: Unexpected start code prefix: 3212037
+02-01 12:27:43.235  5544  5740 W PesReader: Unexpected start code prefix: 2163461
+02-01 12:27:43.235  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:44.300  5544  5586 I PreviewImgM3u8: Generating preview for 203
+02-01 12:27:44.301  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@d27aa19): Cookies: null
+02-01 12:27:44.301  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:44.301  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@d27aa19): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:44.683  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:44.683  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:44.683  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:44.683  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:44.683  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:44.683  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:44.683  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:44.683  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:44.683  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:44.683  5544  5586 I PreviewImgM3u8: Generating preview for 213
+02-01 12:27:44.683  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@b45e4bf): Cookies: null
+02-01 12:27:44.683  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:44.683  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@b45e4bf): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:46.369  5544  5586 I PreviewImgM3u8: Generating preview for 224
+02-01 12:27:46.369  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@dffced5): Cookies: null
+02-01 12:27:46.369  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:46.369  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@dffced5): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:47.390  5544  5586 I PreviewImgM3u8: Generating preview for 234
+02-01 12:27:47.390  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@4ae26ea): Cookies: null
+02-01 12:27:47.390  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:47.390  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@4ae26ea): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:47.637  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:47.637  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:47.637  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:47.637  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:47.637  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:47.637  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:47.637  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:47.637  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:47.637  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:47.637  5544  5586 I PreviewImgM3u8: Generating preview for 245
+02-01 12:27:47.637  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@6c6d078): Cookies: null
+02-01 12:27:47.637  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:47.637  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@6c6d078): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:48.320  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2117/2122 (recycle/alloc) - 16/2113 (fetch/transfer)
+02-01 12:27:48.468  5544  5586 I PreviewImgM3u8: Generating preview for 255
+02-01 12:27:48.468  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@d45acb7): Cookies: null
+02-01 12:27:48.468  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:48.468  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@d45acb7): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:48.583  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:48.583  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:48.583  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:48.583  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:48.583  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:48.583  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:48.583  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:48.583  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:48.583  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:48.583  5544  5586 I PreviewImgM3u8: Generating preview for 265
+02-01 12:27:48.583  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@924038d): Cookies: null
+02-01 12:27:48.583  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:48.583  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@924038d): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:48.922  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:48.922  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:48.922  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:48.922  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:48.922  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:48.922  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:48.922  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:48.922  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:48.922  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:48.922  5544  5586 I PreviewImgM3u8: Generating preview for 276
+02-01 12:27:48.923  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@bef3690): Cookies: null
+02-01 12:27:48.923  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:48.923  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@bef3690): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:49.489  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:49.489  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:49.489  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:49.489  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:49.489  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:49.489  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:49.489  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:49.489  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:49.489  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:49.489  5544  5586 I PreviewImgM3u8: Generating preview for 286
+02-01 12:27:49.489  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@7877baf): Cookies: null
+02-01 12:27:49.489  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:49.489  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@7877baf): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:50.982  5544  5740 W PesReader: Unexpected start code prefix: 3212059
+02-01 12:27:50.983  5544  5740 W PesReader: Unexpected start code prefix: 2163483
+02-01 12:27:50.983  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:52.190  5544  5586 I PreviewImgM3u8: Generating preview for 297
+02-01 12:27:52.190  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@d161e9a): Cookies: null
+02-01 12:27:52.190  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:52.190  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@d161e9a): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:52.618  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:52.618  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:52.618  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:52.621  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:52.621  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:52.621  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:52.621  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:52.621  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:52.621  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:52.621  5544  5586 I PreviewImgM3u8: Generating preview for 307
+02-01 12:27:52.621  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@1cb47a8): Cookies: null
+02-01 12:27:52.622  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:52.622  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@1cb47a8): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:53.613  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:53.613  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:53.613  5544  5586 D ApiError: safeApiCall: setDataSource failed: status = 0x80000000
+02-01 12:27:53.613  5544  5586 W System.err: java.lang.RuntimeException: setDataSource failed: status = 0x80000000
+02-01 12:27:53.613  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever._setDataSource(Native Method)
+02-01 12:27:53.613  5544  5586 W System.err: 	at android.media.MediaMetadataRetriever.setDataSource(MediaMetadataRetriever.java:281)
+02-01 12:27:53.613  5544  5586 W System.err: 	at com.lagradost.cloudstream3.ui.player.M3u8PreviewGenerator$load$1$1.invokeSuspend(PreviewGenerator.kt:384)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+02-01 12:27:53.613  5544  5586 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+02-01 12:27:53.613  5544  5586 D ApiError: -------------------------------------------------------------------
+02-01 12:27:53.613  5544  5586 I PreviewImgM3u8: Generating preview for 318
+02-01 12:27:53.613  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@1a78a66): Cookies: null
+02-01 12:27:53.613  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:53.613  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@1a78a66): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:53.715  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2370/2375 (recycle/alloc) - 16/2366 (fetch/transfer)
+02-01 12:27:54.067  5544  5740 W PesReader: Unexpected start code prefix: 3212085
+02-01 12:27:54.067  5544  5740 W PesReader: Unexpected start code prefix: 2163507
+02-01 12:27:54.067  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:54.913  5544  5586 I PreviewImgM3u8: Generating preview for 328
+02-01 12:27:54.913  5544  5586 V MediaHTTPService: MediaHTTPService(android.media.MediaHTTPService@b613654): Cookies: null
+02-01 12:27:54.913  5544  5586 V MediaHTTPService: makeHTTPConnection: CookieHandler (java.net.CookieManager@7ac316) exists.
+02-01 12:27:54.913  5544  5586 V MediaHTTPService: makeHTTPConnection(android.media.MediaHTTPService@b613654): cookieHandler: java.net.CookieManager@7ac316 Cookies: null
+02-01 12:27:56.787  5544  5740 W PesReader: Unexpected start code prefix: 3212089
+02-01 12:27:56.787  5544  5740 W PesReader: Unexpected start code prefix: 2163513
+02-01 12:27:56.787  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:27:59.106  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2623/2628 (recycle/alloc) - 16/2619 (fetch/transfer)
+02-01 12:27:59.667  5544  5740 W PesReader: Unexpected start code prefix: 3212155
+02-01 12:27:59.667  5544  5740 W PesReader: Unexpected start code prefix: 2163579
+02-01 12:27:59.667  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:04.401  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 2871/2876 (recycle/alloc) - 16/2867 (fetch/transfer)
+02-01 12:28:09.699  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3119/3124 (recycle/alloc) - 16/3115 (fetch/transfer)
+02-01 12:28:13.411  5544  5740 W PesReader: Unexpected start code prefix: 3212171
+02-01 12:28:13.411  5544  5740 W PesReader: Unexpected start code prefix: 2163595
+02-01 12:28:13.411  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:14.980  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3367/3372 (recycle/alloc) - 18/3363 (fetch/transfer)
+02-01 12:28:17.251  5544  5740 W PesReader: Unexpected start code prefix: 3212191
+02-01 12:28:17.251  5544  5740 W PesReader: Unexpected start code prefix: 2163615
+02-01 12:28:17.251  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:20.332  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3618/3623 (recycle/alloc) - 18/3614 (fetch/transfer)
+02-01 12:28:20.934  5544  5740 W PesReader: Unexpected start code prefix: 3212209
+02-01 12:28:20.934  5544  5740 W PesReader: Unexpected start code prefix: 2163633
+02-01 12:28:20.934  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:24.273  5544  5740 W PesReader: Unexpected start code prefix: 3212223
+02-01 12:28:24.273  5544  5740 W PesReader: Unexpected start code prefix: 2163645
+02-01 12:28:24.273  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:25.753  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 3872/3877 (recycle/alloc) - 19/3868 (fetch/transfer)
+02-01 12:28:29.295  5544  5740 W PesReader: Unexpected start code prefix: 3212273
+02-01 12:28:29.295  5544  5740 W PesReader: Unexpected start code prefix: 2163695
+02-01 12:28:29.295  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:31.104  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 4123/4128 (recycle/alloc) - 19/4119 (fetch/transfer)
+02-01 12:28:31.890  5544  5740 W PesReader: Unexpected start code prefix: 3212287
+02-01 12:28:31.890  5544  5740 W PesReader: Unexpected start code prefix: 2163711
+02-01 12:28:31.890  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:34.373  5544  5740 W PesReader: Unexpected start code prefix: 3212307
+02-01 12:28:34.373  5544  5740 W PesReader: Unexpected start code prefix: 2163731
+02-01 12:28:34.373  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:36.532  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 4377/4382 (recycle/alloc) - 19/4373 (fetch/transfer)
+02-01 12:28:38.245  5544  5740 W PesReader: Unexpected start code prefix: 3212329
+02-01 12:28:38.245  5544  5740 W PesReader: Unexpected start code prefix: 2163751
+02-01 12:28:38.245  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:41.189  5544  5740 W PesReader: Unexpected start code prefix: 3212337
+02-01 12:28:41.189  5544  5740 W PesReader: Unexpected start code prefix: 2163759
+02-01 12:28:41.189  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:41.943  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 4631/4636 (recycle/alloc) - 19/4627 (fetch/transfer)
+02-01 12:28:43.283  5544  5740 W PesReader: Unexpected start code prefix: 3212355
+02-01 12:28:43.283  5544  5740 W PesReader: Unexpected start code prefix: 2163779
+02-01 12:28:43.283  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:47.004  5544  5740 W PesReader: Unexpected start code prefix: 3212369
+02-01 12:28:47.004  5544  5740 W PesReader: Unexpected start code prefix: 2163793
+02-01 12:28:47.004  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:47.254  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 4880/4885 (recycle/alloc) - 19/4876 (fetch/transfer)
+02-01 12:28:52.205  5544  5740 W PesReader: Unexpected start code prefix: 3212391
+02-01 12:28:52.205  5544  5740 W PesReader: Unexpected start code prefix: 2163813
+02-01 12:28:52.205  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:52.545  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5128/5133 (recycle/alloc) - 19/5124 (fetch/transfer)
+02-01 12:28:53.954  5544  5740 W PesReader: Unexpected start code prefix: 3212403
+02-01 12:28:53.954  5544  5740 W PesReader: Unexpected start code prefix: 2163827
+02-01 12:28:53.954  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:54.153  5544  5748 D PipelineWatcher: onInputBufferReleased: frameIndex not found (5203); ignored
+02-01 12:28:55.856  5544  5740 W PesReader: Unexpected start code prefix: 3212425
+02-01 12:28:55.856  5544  5740 W PesReader: Unexpected start code prefix: 2163849
+02-01 12:28:55.856  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:28:57.965  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5382/5387 (recycle/alloc) - 20/5378 (fetch/transfer)
+02-01 12:29:00.334  5544  5740 W PesReader: Unexpected start code prefix: 3212441
+02-01 12:29:00.334  5544  5740 W PesReader: Unexpected start code prefix: 2163865
+02-01 12:29:00.334  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:01.869  5544  5740 W PesReader: Unexpected start code prefix: 3212455
+02-01 12:29:01.869  5544  5740 W PesReader: Unexpected start code prefix: 2163879
+02-01 12:29:01.869  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:03.253  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5630/5635 (recycle/alloc) - 21/5626 (fetch/transfer)
+02-01 12:29:03.671  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=UI, fromMs=166516, toMs=251516, durationMs=1430000)
+02-01 12:29:03.673  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPlaying, isPlaying=IsBuffering, source=Player)
+02-01 12:29:03.674  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:29:03.675  5544  5731 D MediaCodec: keep callback message for reclaim
+02-01 12:29:03.675  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=251516, toMs=251516, durationMs=1430000)
+02-01 12:29:03.676  5544  5753 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+02-01 12:29:03.676  5544  5753 W Codec2Client: query -- param skipped: index = 1342179345.
+02-01 12:29:03.676  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=251516, toMs=251516, durationMs=1430000)
+02-01 12:29:03.677  5544  5753 W Codec2Client: query -- param skipped: index = 2415921170.
+02-01 12:29:03.677  5544  5753 W Codec2Client: query -- param skipped: index = 1610614798.
+02-01 12:29:03.711  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:29:03.713  5544  5658 D eam3.prereleas: VAddressStream is reused...
+02-01 12:29:03.713  5544  5658 D eam3.prereleas: Features: 0 0 0
+02-01 12:29:03.713  5544  5658 E eam3.prereleas: vulkan version is 4211013
+02-01 12:29:03.714  5544  5658 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-01 12:29:03.742  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:29:04.319  5544  5544 I CS3ExoPlayer: Handle event: PositionEvent(source=Player, fromMs=251216, toMs=251216, durationMs=1430000)
+02-01 12:29:04.326  5544  5740 W PesReader: Unexpected start code prefix: 3212649
+02-01 12:29:04.326  5544  5740 W PesReader: Unexpected start code prefix: 2164073
+02-01 12:29:04.326  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:04.551  5544  5882 I CustomDecoder: Parse subtitle, current parser: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:29:04.552  5544  5882 I CustomDecoder: Detected encoding with charset UTF-8 and override = null
+02-01 12:29:04.552  5544  5882 I CustomDecoder: Subtitle preview: WEBVTT
+02-01 12:29:04.552  5544  5882 I CustomDecoder: 
+02-01 12:29:04.552  5544  5882 I CustomDecoder: 00:14.580 --> 00:16.95
+02-01 12:29:04.552  5544  5882 I CustomDecoder: Parser selected: androidx.media3.extractor.text.webvtt.WebvttParser@bd66a80
+02-01 12:29:04.552  5544  5544 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:29:04.553  5544  5544 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:29:04.553  5544  5544 I CS3ExoPlayer: Handle event: StatusEvent(wasPlaying=IsPaused, isPlaying=IsPlaying, source=Player)
+02-01 12:29:04.556  5544  5544 I CS3ExoPlayer: Handle event: RequestAudioFocusEvent(source=Player)
+02-01 12:29:04.589  5544  5544 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 16384
+02-01 12:29:04.757  5544  5740 W PesReader: Unexpected start code prefix: 3212667
+02-01 12:29:04.757  5544  5740 W PesReader: Unexpected start code prefix: 2164091
+02-01 12:29:04.757  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:05.466  5544  5740 W PesReader: Unexpected start code prefix: 3212701
+02-01 12:29:05.466  5544  5740 W PesReader: Unexpected start code prefix: 2164125
+02-01 12:29:05.466  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:06.183  5544  5740 W PesReader: Unexpected start code prefix: 3212733
+02-01 12:29:06.183  5544  5740 W PesReader: Unexpected start code prefix: 2164157
+02-01 12:29:06.183  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:06.337  5544  5740 W PesReader: Unexpected start code prefix: 3212753
+02-01 12:29:06.337  5544  5740 W PesReader: Unexpected start code prefix: 2164177
+02-01 12:29:06.337  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:07.643  5544  5740 W PesReader: Unexpected start code prefix: 3212785
+02-01 12:29:07.643  5544  5740 W PesReader: Unexpected start code prefix: 2164209
+02-01 12:29:07.643  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:08.359  5544  5740 W PesReader: Unexpected start code prefix: 3212805
+02-01 12:29:08.359  5544  5740 W PesReader: Unexpected start code prefix: 2164229
+02-01 12:29:08.359  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:08.555  5544  5740 W PesReader: Unexpected start code prefix: 3212817
+02-01 12:29:08.555  5544  5740 W PesReader: Unexpected start code prefix: 2164241
+02-01 12:29:08.555  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:08.570  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 5859/5864 (recycle/alloc) - 21/5854 (fetch/transfer)
+02-01 12:29:09.073  5544  5740 W PesReader: Unexpected start code prefix: 3212831
+02-01 12:29:09.073  5544  5740 W PesReader: Unexpected start code prefix: 2164255
+02-01 12:29:09.073  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:09.422  5544  5740 W PesReader: Unexpected start code prefix: 3212875
+02-01 12:29:09.422  5544  5740 W PesReader: Unexpected start code prefix: 2164297
+02-01 12:29:09.422  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:09.884  5544  5740 W PesReader: Unexpected start code prefix: 3212887
+02-01 12:29:09.884  5544  5740 W PesReader: Unexpected start code prefix: 2164309
+02-01 12:29:09.884  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:10.454  5544  5740 W PesReader: Unexpected start code prefix: 3212923
+02-01 12:29:10.455  5544  5740 W PesReader: Unexpected start code prefix: 2164345
+02-01 12:29:10.455  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:10.911  5544  5740 W PesReader: Unexpected start code prefix: 3212977
+02-01 12:29:10.911  5544  5740 W PesReader: Unexpected start code prefix: 2164401
+02-01 12:29:10.911  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:13.933  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 4(32768 size) used buffers - 6113/6118 (recycle/alloc) - 21/6106 (fetch/transfer)
+02-01 12:29:15.294  5544  5740 W PesReader: Unexpected start code prefix: 3212991
+02-01 12:29:15.294  5544  5740 W PesReader: Unexpected start code prefix: 2164415
+02-01 12:29:15.294  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:17.736  5544  5740 W PesReader: Unexpected start code prefix: 3213001
+02-01 12:29:17.736  5544  5740 W PesReader: Unexpected start code prefix: 2164425
+02-01 12:29:17.736  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:19.293  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 6365/6370 (recycle/alloc) - 21/6361 (fetch/transfer)
+02-01 12:29:19.771  5544  5740 W PesReader: Unexpected start code prefix: 3213029
+02-01 12:29:19.771  5544  5740 W PesReader: Unexpected start code prefix: 2164453
+02-01 12:29:19.771  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:24.544  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 4(32768 size) used buffers - 6610/6615 (recycle/alloc) - 22/6603 (fetch/transfer)
+02-01 12:29:25.308  5544  5740 W PesReader: Unexpected start code prefix: 3213047
+02-01 12:29:25.308  5544  5740 W PesReader: Unexpected start code prefix: 2164471
+02-01 12:29:25.308  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:29.908  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 4(32768 size) used buffers - 6862/6867 (recycle/alloc) - 22/6855 (fetch/transfer)
+02-01 12:29:35.335  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 4(32768 size) used buffers - 7116/7121 (recycle/alloc) - 22/7109 (fetch/transfer)
+02-01 12:29:37.335  5544  5740 W PesReader: Unexpected start code prefix: 3213065
+02-01 12:29:37.336  5544  5740 W PesReader: Unexpected start code prefix: 2164489
+02-01 12:29:37.336  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:40.419  5544  5740 W PesReader: Unexpected start code prefix: 3213079
+02-01 12:29:40.419  5544  5740 W PesReader: Unexpected start code prefix: 2164503
+02-01 12:29:40.419  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:40.590  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 7360/7365 (recycle/alloc) - 22/7355 (fetch/transfer)
+02-01 12:29:43.207  5544  5740 W PesReader: Unexpected start code prefix: 3213133
+02-01 12:29:43.207  5544  5740 W PesReader: Unexpected start code prefix: 2164557
+02-01 12:29:43.207  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:45.891  5544  5740 W PesReader: Unexpected start code prefix: 3213169
+02-01 12:29:45.891  5544  5740 W PesReader: Unexpected start code prefix: 2164593
+02-01 12:29:45.891  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:45.926  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 7610/7615 (recycle/alloc) - 23/7605 (fetch/transfer)
+02-01 12:29:51.259  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 7860/7865 (recycle/alloc) - 23/7855 (fetch/transfer)
+02-01 12:29:54.949  5544  5740 W PesReader: Unexpected start code prefix: 3213177
+02-01 12:29:54.949  5544  5740 W PesReader: Unexpected start code prefix: 2164599
+02-01 12:29:54.949  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:56.571  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8109/8114 (recycle/alloc) - 24/8104 (fetch/transfer)
+02-01 12:29:57.488  5544  5740 W PesReader: Unexpected start code prefix: 3213201
+02-01 12:29:57.488  5544  5740 W PesReader: Unexpected start code prefix: 2164623
+02-01 12:29:57.488  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:29:58.510  5544  5740 W PesReader: Unexpected start code prefix: 3213223
+02-01 12:29:58.511  5544  5740 W PesReader: Unexpected start code prefix: 2164647
+02-01 12:29:58.511  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:01.963  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8362/8367 (recycle/alloc) - 24/8357 (fetch/transfer)
+02-01 12:30:04.328  5544  5740 W PesReader: Unexpected start code prefix: 3213237
+02-01 12:30:04.328  5544  5740 W PesReader: Unexpected start code prefix: 2164661
+02-01 12:30:04.328  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:05.412  5544  5740 W PesReader: Unexpected start code prefix: 3213255
+02-01 12:30:05.412  5544  5740 W PesReader: Unexpected start code prefix: 2164679
+02-01 12:30:05.412  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:07.100  5544  5740 W PesReader: Unexpected start code prefix: 3213301
+02-01 12:30:07.100  5544  5740 W PesReader: Unexpected start code prefix: 2164725
+02-01 12:30:07.100  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:07.278  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8611/8616 (recycle/alloc) - 24/8606 (fetch/transfer)
+02-01 12:30:12.474  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 8854/8859 (recycle/alloc) - 24/8849 (fetch/transfer)
+02-01 12:30:17.289  5544  5740 W PesReader: Unexpected start code prefix: 3213323
+02-01 12:30:17.289  5544  5740 W PesReader: Unexpected start code prefix: 2164747
+02-01 12:30:17.289  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:17.759  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9102/9107 (recycle/alloc) - 25/9097 (fetch/transfer)
+02-01 12:30:19.778  5544  5740 W PesReader: Unexpected start code prefix: 3213341
+02-01 12:30:19.778  5544  5740 W PesReader: Unexpected start code prefix: 2164763
+02-01 12:30:19.778  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:21.539  5544  5740 W PesReader: Unexpected start code prefix: 3213351
+02-01 12:30:21.539  5544  5740 W PesReader: Unexpected start code prefix: 2164775
+02-01 12:30:21.539  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:23.253  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9360/9365 (recycle/alloc) - 25/9355 (fetch/transfer)
+02-01 12:30:24.242  5544  5740 W PesReader: Unexpected start code prefix: 3213369
+02-01 12:30:24.242  5544  5740 W PesReader: Unexpected start code prefix: 2164793
+02-01 12:30:24.242  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:28.440  5544  5740 W PesReader: Unexpected start code prefix: 3213385
+02-01 12:30:28.440  5544  5740 W PesReader: Unexpected start code prefix: 2164809
+02-01 12:30:28.440  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:28.475  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 4(32768 size) used buffers - 9607/9612 (recycle/alloc) - 27/9600 (fetch/transfer)
+02-01 12:30:30.655  5544  5740 W PesReader: Unexpected start code prefix: 3213403
+02-01 12:30:30.655  5544  5740 W PesReader: Unexpected start code prefix: 2164827
+02-01 12:30:30.655  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:33.093  5544  5740 W PesReader: Unexpected start code prefix: 3213413
+02-01 12:30:33.093  5544  5740 W PesReader: Unexpected start code prefix: 2164837
+02-01 12:30:33.093  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:33.822  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 9855/9860 (recycle/alloc) - 27/9850 (fetch/transfer)
+02-01 12:30:39.147  5544  5753 D BufferPoolAccessor2.0: bufferpool2 0x7b9f84cb3998 : 5(40960 size) total buffers - 1(8192 size) used buffers - 10105/10110 (recycle/alloc) - 27/10100 (fetch/transfer)
+02-01 12:30:40.276  5544  5740 W PesReader: Unexpected start code prefix: 3213443
+02-01 12:30:40.276  5544  5740 W PesReader: Unexpected start code prefix: 2164867
+02-01 12:30:40.276  5544  5740 W PesReader: Unexpected start code prefix: 0
+02-01 12:30:40.283  5544  5725 I SIGNAL_LOG: signal pid 5544 uid 10050 signal_num 5 si_code 128 si_errno 0 si_val 0
+02-01 12:30:40.288  5544  5725 I SIGNAL_LOG: houdini base 0x7b9e8887c000
+02-01 12:30:40.288  5544  5725 I SIGNAL_LOG: houdini arm64 regs base 0x0
+02-01 12:30:40.288  5544  5725 I SIGNAL_LOG:   invalid arm reg
+--------- beginning of crash
+02-01 12:30:40.289  5544  5725 F libc    : Fatal signal 5 (SIGTRAP), code 128 (SI_KERNEL), fault addr 0x0 in tid 5725 (CronetNet), pid 5544 (eam3.prerelease)
+02-01 12:30:40.348 11641 11641 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+02-01 12:30:40.347 11641 11641 I crash_dump64: type=1400 audit(0.0:4182): avc: denied { write } for name="tombstoned_crash" dev="tmpfs" ino=12206 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:tombstoned_crash_socket:s0 tclass=sock_file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.359 11641 11641 I crash_dump64: performing dump of process 5544 (target tid = 5725)
+02-01 12:30:40.357 11641 11641 I crash_dump64: type=1400 audit(0.0:4184): avc: denied { append } for path=2F646174612F746F6D6273746F6E65732F2331333130383130202864656C6574656429 dev="sdc3" ino=1310810 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.363 11641 11641 I crash_dump64: type=1400 audit(0.0:4185): avc: denied { open } for path="/proc/uptime" dev="proc" ino=4026532028 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:proc_uptime:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.363 11641 11641 I crash_dump64: type=1400 audit(0.0:4186): avc: denied { getattr } for path="/proc/uptime" dev="proc" ino=4026532028 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:proc_uptime:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.640 11641 11641 I crash_dump64: type=1400 audit(0.0:4187): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=11397 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.640 11641 11641 I crash_dump64: type=1400 audit(0.0:4188): avc: denied { open } for path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=11397 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.640 11641 11641 I crash_dump64: type=1400 audit(0.0:4189): avc: denied { getattr } for path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=11397 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.793 11641 11641 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-01 12:30:40.793 11641 11641 F DEBUG   : Build fingerprint: 'Samsung/a15x/a15x:12/V417IR/189:user/release-keys'
+02-01 12:30:40.793 11641 11641 F DEBUG   : Revision: '0'
+02-01 12:30:40.793 11641 11641 F DEBUG   : ABI: 'x86_64'
+02-01 12:30:40.793 11641 11641 F DEBUG   : Timestamp: 2026-02-01 12:30:40.366096925+0530
+02-01 12:30:40.793 11641 11641 F DEBUG   : Process uptime: 225s
+02-01 12:30:40.793 11641 11641 F DEBUG   : Cmdline: com.lagradost.cloudstream3.prerelease
+02-01 12:30:40.793 11641 11641 F DEBUG   : pid: 5544, tid: 5725, name: CronetNet  >>> com.lagradost.cloudstream3.prerelease <<<
+02-01 12:30:40.793 11641 11641 F DEBUG   : uid: 10050
+02-01 12:30:40.793 11641 11641 F DEBUG   : signal 5 (SIGTRAP), code 128 (SI_KERNEL), fault addr 0x0
+02-01 12:30:40.793 11641 11641 F DEBUG   :     rax 000000001f384b9a  rbx 00007b9fb4c8b740  rcx 000000001f384bfd  rdx 00000000000bf2da
+02-01 12:30:40.793 11641 11641 F DEBUG   :     r8  00007b9e70a42688  r9  000000000003ae52  r10 00007ffdd75f90b0  r11 0000007a2970eb47
+02-01 12:30:40.793 11641 11641 F DEBUG   :     r12 00007b9e6b992788  r13 00007b9e6b992788  r14 0000000000000000  r15 00007b9e70a42760
+02-01 12:30:40.793 11641 11641 F DEBUG   :     rdi 00007ffdd75f9080  rsi 000000000003ae52
+02-01 12:30:40.793 11641 11641 F DEBUG   :     rbp 0000000000000000  rsp 00007b9e70a426a0  rip 00007b9e6b629d3a
+02-01 12:30:40.793 11641 11641 F DEBUG   : backtrace:
+02-01 12:30:40.793 11641 11641 F DEBUG   :       #00 pc 0000000000362d3a  /system/priv-app/PrebuiltGmsCore/split_CronetDynamite_installtime.apk!libcronet.140.0.7289.0.so (BuildId: 1de39a76d067280d61fc4218db43b3c9911006d8)
+02-01 12:30:45.431 11696 11696 W eam3.prereleas: Unexpected CPU variant for X86 using defaults: x86_64
+02-01 12:30:45.431 11696 11696 V libnb   : enter native_bridge2_initialize /data/user/0/com.lagradost.cloudstream3.prerelease/code_cache arm64
+02-01 12:30:45.438 11696 11696 E libnb   : The translator implementation library has not been set.
+02-01 12:30:45.444 11696 11696 E libnb   : get_callbacks native_handle 0xca2a70c0a7f899e3: 1 libnb:/system/lib64/libhoudini.so
+02-01 12:30:45.444 11696 11696 I libnb   : Found /system/lib64/libhoudini.so version 6
+02-01 12:30:45.444 11696 11696 D HP      : no libmumuhooker.so
+02-01 12:30:45.444 11696 11696 D houdini : [11696] Intel Bridge Technology for Netease internal evaluation only, Copyright(C) Intel Corp. 2012-2025.
+02-01 12:30:45.444 11696 11696 D houdini : [11696] Use permitted only under a valid evaluation software license agreement - all other rights reserved.
+02-01 12:30:45.444 11696 11696 D houdini : [11696] Initialize library(version: 12.0.1_z.Netease_ev4 RELEASE)... successfully.
+02-01 12:30:45.444 11696 11696 W HP      : x_initialize private_dir:/data/user/0/com.lagradost.cloudstream3.prerelease/code_cache instruction_set:arm64 getMethodShorty:0x7b9ea3d3c340 ret:1
+02-01 12:30:45.449 11696 11696 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+02-01 12:30:45.458 11696 11712 E ashmem  : memfd: ro.vndk.version not defined or invalid (), this is mandated since P.
+02-01 12:30:45.460 11696 11696 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10050; state: ENABLED
+02-01 12:30:45.477 11696 11696 D NemuJavaHotPatchHelper: onHandleBindApplication reportedPackageName:com.lagradost.cloudstream3.prerelease isMatchJavaPatch:false
+02-01 12:30:45.564 11696 11696 I Typeface: Preloading /system/fonts/Roboto-Regular.ttf
+02-01 12:30:45.564 11696 11696 I Typeface: Preloading /system/fonts/RobotoStatic-Regular.ttf
+02-01 12:30:45.658 11696 11696 V GraphicsEnvironment: ANGLE Developer option for 'com.lagradost.cloudstream3.prerelease' set to: 'default'
+02-01 12:30:45.658 11696 11696 V GraphicsEnvironment: ANGLE GameManagerService for com.lagradost.cloudstream3.prerelease: false
+02-01 12:30:45.658 11696 11696 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-01 12:30:45.659 11696 11696 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+02-01 12:30:45.659 11696 11696 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+02-01 12:30:45.666 11696 11696 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+02-01 12:30:45.671 11696 11696 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+02-01 12:30:45.671 11696 11696 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+02-01 12:30:45.673 11696 11717 D WM-ForceStopRunnable: The default process name was not specified.
+02-01 12:30:45.673 11696 11717 D WM-ForceStopRunnable: Performing cleanup operations.
+02-01 12:30:45.684 11696 11717 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10050; state: ENABLED
+02-01 12:30:45.694 11696 11717 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+02-01 12:30:45.708 11696 11696 V NativeCrypto: Registering org/conscrypt/NativeCrypto's 288 native methods...
+02-01 12:30:45.746 11696 11722 D libEGL  : loaded /system/lib64/egl/libEGL_emulation.so
+02-01 12:30:45.753 11696 11722 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:45.753 11696 11722 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:45.756 11696 11722 D libEGL  : loaded /system/lib64/egl/libGLESv1_CM_emulation.so
+02-01 12:30:45.757 11696 11722 D libEGL  : loaded /system/lib64/egl/libGLESv2_emulation.so
+02-01 12:30:45.776 11696 11722 E GraphicsEnv: Failed to get gpu service
+02-01 12:30:45.849 11696 11696 I NavComponent: Navigating to Activity: MainActivity
+02-01 12:30:45.929 11696 11696 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+02-01 12:30:45.996 11696 11696 I MediaRouterProxy: Don't need to set MediaRouterParams for Android S v2 or below
+02-01 12:30:46.003 11696 11696 I DynamiteModule: Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:253534000
+02-01 12:30:46.003 11696 11696 I DynamiteModule: Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 253534000
+02-01 12:30:46.003 11696 11696 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+02-01 12:30:46.008 11696 11696 W System  : ClassLoader referenced unknown path: 
+02-01 12:30:46.087 11696 11696 I CastDynamiteModuleImpl: sn created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/system/priv-app/PrebuiltGmsCore/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/system/priv-app/PrebuiltGmsCore/split_DynamiteModulesC_installtime.apk!/lib/x86_64, /system/priv-app/PrebuiltGmsCore/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /system/product/lib64, /system/vendor/lib64]]].
+02-01 12:30:46.096 11696 11696 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:30:46.096 11696 11696 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+02-01 12:30:46.100 11696 11696 I MediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=100, volumeMax=100, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+02-01 12:30:46.100 11696 11696 I MediaRouter: Unselecting the current route because it is no longer selectable: null
+02-01 12:30:46.176 11696 11696 W Resources: Drawable com.lagradost.cloudstream3.prerelease:drawable/go_forward_30 has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+02-01 12:30:46.176 11696 11696 W Resources: java.lang.RuntimeException
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.content.res.Resources.getDrawable(Resources.java:922)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.google.android.gms.cast.framework.media.widget.zzs.zzd(com.google.android.gms:play-services-cast-framework@@21.4.0:2)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.google.android.gms.cast.framework.media.widget.zzs.zzc(com.google.android.gms:play-services-cast-framework@@21.4.0:1)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.zza(com.google.android.gms:play-services-cast-framework@@21.4.0:41)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.onCreateView(com.google.android.gms:play-services-cast-framework@@21.4.0:29)
+02-01 12:30:46.176 11696 11696 W Resources: 	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+02-01 12:30:46.176 11696 11696 W Resources: 	at androidx.fragment.app.FragmentStateManager.ensureInflatedView(FragmentStateManager.java:418)
+02-01 12:30:46.176 11696 11696 W Resources: 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+02-01 12:30:46.176 11696 11696 W Resources: 	at androidx.fragment.app.FragmentLayoutInflaterFactory.onCreateView(FragmentLayoutInflaterFactory.java:142)
+02-01 12:30:46.176 11696 11696 W Resources: 	at androidx.fragment.app.FragmentController.onCreateView(FragmentController.java:136)
+02-01 12:30:46.176 11696 11696 W Resources: 	at androidx.fragment.app.FragmentActivity.dispatchFragmentsOnCreateView(FragmentActivity.java:247)
+02-01 12:30:46.176 11696 11696 W Resources: 	at androidx.fragment.app.FragmentActivity.onCreateView(FragmentActivity.java:226)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.tryCreateView(LayoutInflater.java:1073)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1001)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:965)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1127)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1088)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1130)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1088)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1130)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1088)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:686)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:538)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.lagradost.cloudstream3.databinding.ActivityMainBinding.inflate(ActivityMainBinding.java:66)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.lagradost.cloudstream3.MainActivity.onCreate(MainActivity.kt:1260)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.Activity.performCreate(Activity.java:8058)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.Activity.performCreate(Activity.java:8038)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1345)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3738)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3933)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2296)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.os.Looper.loopOnce(Looper.java:201)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.os.Looper.loop(Looper.java:288)
+02-01 12:30:46.176 11696 11696 W Resources: 	at android.app.ActivityThread.main(ActivityThread.java:8062)
+02-01 12:30:46.176 11696 11696 W Resources: 	at java.lang.reflect.Method.invoke(Native Method)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+02-01 12:30:46.176 11696 11696 W Resources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1091)
+02-01 12:30:46.191 11696 11732 D CompatibilityChangeReporter: Compat change id reported: 191844585; UID 10050; state: ENABLED
+02-01 12:30:46.199 11696 11733 I PluginManager: Loading plugin: PluginData(internalName=HiAnime, url=https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/HiAnime.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comphisher98cloudstream-extensions-phisherrefsheadsbuildsrepo.json.567540747/HiAnime.-1749740589.cs3, version=29)
+02-01 12:30:46.201 11696 11696 I System.out: Loaded everything
+02-01 12:30:46.205 11696 11696 I AppVisibilityProxy: onAppEnteredForeground
+02-01 12:30:46.217 11696 11733 D PluginManager: Loading resources for HiAnime
+02-01 12:30:46.218 11696 11733 I PluginInstance: Adding HiAnime (https://hianime.to) MainAPI
+02-01 12:30:46.220 11696 11733 I PluginInstance: Adding Megacloud (https://megacloud.blog) ExtractorApi
+02-01 12:30:46.229 11696 11733 I PluginManager: Loaded plugin HiAnime successfully
+02-01 12:30:46.231 11696 11735 I PluginManager: Loading plugin: PluginData(internalName=VegaMovies, url=https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/VegaMovies.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comSaurabhKaperwanCSXbuildsCS.json.-1967555329/VegaMovies.-264642420.cs3, version=73)
+02-01 12:30:46.232 11696 11733 W PluginManager: Failed to create local directories
+02-01 12:30:46.232 11696 11731 I PluginManager: Loading plugin: PluginData(internalName=Watch32, url=https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/Watch32.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comNivinCNCCNCVerse-Cloud-Stream-ExtensionrefsheadsbuildsCNC.json.-815728861/Watch32.-1504351410.cs3, version=2)
+02-01 12:30:46.235 11696 11734 I PluginManager: Loading plugin: PluginData(internalName=CNC Verse, url=https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/CNC Verse.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comNivinCNCCNCVerse-Cloud-Stream-ExtensionrefsheadsbuildsCNC.json.-815728861/CNCVerse.-2008229843.cs3, version=47)
+02-01 12:30:46.235 11696 11731 I PluginManager: Loading plugin: PluginData(internalName=CineStream, url=https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/CineStream.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comSaurabhKaperwanCSXbuildsCS.json.-1967555329/CineStream.-719649123.cs3, version=299)
+02-01 12:30:46.235 11696 11732 I PluginManager: Loading plugin: PluginData(internalName=HiAnime, url=https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/HiAnime.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comphisher98cloudstream-extensions-phisherrefsheadsbuildsrepo.json.567540747/HiAnime.-1749740589.cs3, version=29)
+02-01 12:30:46.235 11696 11740 I PluginManager: Loading plugin: PluginData(internalName=Anichi, url=https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/Anichi.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3.prerelease/files/Extensions/httpsraw.githubusercontent.comphisher98cloudstream-extensions-phisherrefsheadsbuildsrepo.json.567540747/Anichi.1965708648.cs3, version=10)
+02-01 12:30:46.240 11696 11740 I PluginInstance: Adding Watch32 (https://watch32.sx) MainAPI
+02-01 12:30:46.240 11696 11740 I PluginInstance: Adding Videostr (https://videostr.net) ExtractorApi
+02-01 12:30:46.240 11696 11740 I PluginManager: Loaded plugin Watch32 successfully
+02-01 12:30:46.245 11696 11732 I PluginInstance: Adding Netflix (https://net20.cc) MainAPI
+02-01 12:30:46.245 11696 11732 I PluginInstance: Adding PrimeVideo (https://net20.cc) MainAPI
+02-01 12:30:46.245 11696 11732 I PluginInstance: Adding Hotstar (https://net20.cc) MainAPI
+02-01 12:30:46.245 11696 11732 I PluginInstance: Adding Disney Plus (https://net20.cc) MainAPI
+02-01 12:30:46.245 11696 11732 I PluginManager: Loaded plugin CNC Verse successfully
+02-01 12:30:46.248 11696 11732 I PluginManager: Plugin with name HiAnime already exists
+02-01 12:30:46.250 11696 11742 I PluginInstance: Adding Anichi (NONE) MainAPI
+02-01 12:30:46.250 11696 11742 I PluginInstance: Adding StreamWish (https://swiftplayers.com) ExtractorApi
+02-01 12:30:46.250 11696 11742 I PluginInstance: Adding Streamwish (https://streamwish.to) ExtractorApi
+02-01 12:30:46.250 11696 11742 I PluginInstance: Adding Filemoon (https://filemoon.to) ExtractorApi
+02-01 12:30:46.250 11696 11742 I PluginInstance: Adding Vidguard (https://listeamed.net) ExtractorApi
+02-01 12:30:46.250 11696 11742 I PluginInstance: Adding Okrulink (https://okru.link) ExtractorApi
+02-01 12:30:46.250 11696 11742 I PluginManager: Loaded plugin Anichi successfully
+02-01 12:30:46.253 11696 11731 I PluginInstance: Adding CineStream (https://cinemeta-catalogs.strem.io) MainAPI
+02-01 12:30:46.253 11696 11731 I PluginInstance: Adding CineSimkl (https://simkl.com) MainAPI
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding CineTmdb (https://www.themoviedb.org) MainAPI
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Kwik (https://kwik.cx) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Animezia (https://animezia.cloud) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Multimovies Vidhide (https://server2.shop) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Multimovies Cloud AIO (https://allinonedownloader.fun) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Strwish (https://strwish.com) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Cdnwish (https://cdnwish.com) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding DHC Play (https://dhcplay.com) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Streanwish Asn (https://asnwish.com) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Multimovies Cloud (https://multimovies.cloud) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding Pahe (https://pahe.win) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding VidHide (https://smoothpre.com) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding VidHide (https://ryderjet.com) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding SuperVideo (https://supervideo.cc) ExtractorApi
+02-01 12:30:46.255 11696 11731 I PluginInstance: Adding MixDrop (https://mixdrop.ps) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding MixDrop (https://mxdrop.to) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding MixDrop (https://mixdrop.si) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding VidHide (https://dlions.pro) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding StreamTape (https://watchadsontape.com) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding Vidguard (https://vembed.net) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding Filesim (https://multimoviesshg.com) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding Akamaicdn (https://molop.art) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding VidHidePro (https://vidhidehub.com) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding MegaUp (https://rapidairmax.site) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding MegaUp (https://megaup.live) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding MegaUp (https://megaup22.online) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginInstance: Adding MegaUp (https://4spromax.site) ExtractorApi
+02-01 12:30:46.256 11696 11731 I PluginManager: Loaded plugin CineStream successfully
+02-01 12:30:46.269 11696 11696 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+02-01 12:30:46.271 11696 11696 I SYNC_API: MAL, mal
+--------- beginning of system
+02-01 12:30:46.274 11696 11696 E ActivityThread: Failed to find provider info for android.media.tv
+02-01 12:30:46.274 11696 11696 D TvChannel: Channel not found, creating
+02-01 12:30:46.275 11696 11696 E ActivityThread: Failed to find provider info for android.media.tv
+02-01 12:30:46.275 11696 11696 D ApiError: -------------------------------------------------------------------
+02-01 12:30:46.275 11696 11696 D ApiError: safeApiCall: Unknown URL content://android.media.tv/channel
+02-01 12:30:46.275 11696 11696 D ApiError: safeApiCall: Unknown URL content://android.media.tv/channel
+02-01 12:30:46.275 11696 11696 W System.err: java.lang.IllegalArgumentException: Unknown URL content://android.media.tv/channel
+02-01 12:30:46.275 11696 11696 W System.err: 	at android.content.ContentResolver.insert(ContentResolver.java:2189)
+02-01 12:30:46.275 11696 11696 W System.err: 	at android.content.ContentResolver.insert(ContentResolver.java:2155)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.utils.TvChannelUtils.createTvChannel(TvChannelUtils.kt:152)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.MainActivity$onCreate$31.invokeSuspend(MainActivity.kt:1993)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.MainActivity$onCreate$31.invoke(Unknown Source:8)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.MainActivity$onCreate$31.invoke(Unknown Source:4)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invokeSuspend(Coroutines.kt:13)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Unknown Source:8)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Unknown Source:4)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.lagradost.cloudstream3.mvvm.ArchComponentExtKt$launchSafe$obj$1.invokeSuspend(ArchComponentExt.kt:154)
+02-01 12:30:46.275 11696 11696 W System.err: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+02-01 12:30:46.275 11696 11696 W System.err: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+02-01 12:30:46.275 11696 11696 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+02-01 12:30:46.275 11696 11696 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-01 12:30:46.275 11696 11696 W System.err: 	at android.os.Looper.loopOnce(Looper.java:201)
+02-01 12:30:46.275 11696 11696 W System.err: 	at android.os.Looper.loop(Looper.java:288)
+02-01 12:30:46.275 11696 11696 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:8062)
+02-01 12:30:46.275 11696 11696 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+02-01 12:30:46.275 11696 11696 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1091)
+02-01 12:30:46.275 11696 11696 D ApiError: -------------------------------------------------------------------
+02-01 12:30:46.303 11696 11696 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10050; state: ENABLED
+02-01 12:30:46.335 11696 11720 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:46.335 11696 11720 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:46.339 11696 11720 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+02-01 12:30:46.341 11696 11720 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+02-01 12:30:46.342 11696 11720 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-01 12:30:46.356 11696 11720 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@4.0::IMapper instance: default
+02-01 12:30:46.357 11696 11720 I Gralloc4: mapper 4.x is not supported
+02-01 12:30:46.357 11696 11720 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@3.0::IMapper instance: default
+02-01 12:30:46.357 11696 11720 W Gralloc3: mapper 3.x is not supported
+02-01 12:30:46.357 11696 11720 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+02-01 12:30:46.364 11696 11720 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@4.0::IAllocator instance: default
+02-01 12:30:46.364 11696 11720 W Gralloc4: allocator 4.x is not supported
+02-01 12:30:46.364 11696 11720 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@3.0::IAllocator instance: default
+02-01 12:30:46.364 11696 11720 W Gralloc3: allocator 3.x is not supported
+02-01 12:30:46.364 11696 11720 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+02-01 12:30:46.365 11696 11720 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+02-01 12:30:46.377 11696 11777 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:46.377 11696 11777 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:46.378 11696 11777 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+02-01 12:30:46.379 11696 11777 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 8298496
+02-01 12:30:46.613 11696 11735 I PluginInstance: Adding VegaMovies (https://vegamovies.gratis) MainAPI
+02-01 12:30:46.629 11696 11696 D CoilImgLoader: setupCoilLogger: Activated EVENT_LISTENER FOR COIL
+02-01 12:30:46.629 11696 11696 D CoilImgLoader: buildImageLoader: Setting COIL Image Loader.
+02-01 12:30:46.654 11696 11735 I PluginInstance: Adding LuxMovies (https://luxmovies.cash) MainAPI
+02-01 12:30:46.707 11696 11732 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:46.707 11696 11732 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:46.708 11696 11732 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 270336
+02-01 12:30:46.711 11696 11751 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:46.711 11696 11751 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:46.712 11696 11751 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 282624
+02-01 12:30:46.718 11696 11796 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:46.719 11696 11796 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:46.721 11696 11742 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:46.721 11696 11742 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:46.721 11696 11753 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:46.721 11696 11753 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:46.722 11696 11753 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 282624
+02-01 12:30:46.726 11696 11796 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-01 12:30:46.728 11696 11742 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 282624
+02-01 12:30:46.762 11696 11735 I PluginInstance: Adding Rogmovies (https://rogmovies.world) MainAPI
+02-01 12:30:46.762 11696 11735 I PluginManager: Loaded plugin VegaMovies successfully
+02-01 12:30:46.813 11696 11751 D InAppUpdater: Fetched GitHub tag: 4e2bfd3
+02-01 12:30:47.416 11696 11740 I PluginManager: Plugin update done!
+02-01 12:30:47.466 11696 11740 D eam3.prereleas: Features: 0 0 0
+02-01 12:30:47.466 11696 11740 E eam3.prereleas: vulkan version is 4211013
+02-01 12:30:47.468 11696 11740 D gralloc_x86: gralloc_alloc: Creating ashmem region of size 57344
+02-01 12:30:47.566 11696 11707 I eam3.prereleas: Background young concurrent copying GC freed 811195(43MB) AllocSpace objects, 50(12MB) LOS objects, 44% free, 30MB/54MB, paused 339us,42us total 133.911ms
+02-01 12:30:47.620 11696 11709 W System  : A resource failed to call close. 
+02-01 12:30:51.219 11696 11696 I NavComponent: Navigating to fragment: 2131361885
+02-01 12:30:51.629 11696 11807 D ProfileInstaller: Skipping profile installation for com.lagradost.cloudstream3.prerelease
+02-01 12:30:53.043 11808 11808 I eam3.prerelease: type=1400 audit(0.0:4324): avc: denied { execute_no_trans } for path="/system/bin/logcat" dev="sda6" ino=766 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=file permissive=1 app=com.lagradost.cloudstream3.prerelease
+02-01 12:30:53.043 11808 11808 I eam3.prerelease: type=1400 audit(0.0:4325): avc: denied { read } for name="linker64" dev="sda6" ino=757 scontext=u:r:untrusted_app:s0:c50,c256,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=lnk_file permissive=1 app=com.lagradost.cloudstream3.prerelease
